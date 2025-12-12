@@ -1,0 +1,53 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#FFF8E7"/>
+  
+  <!-- タイトル背景 -->
+  <rect x="0" y="0" width="800" height="100" fill="#FF6B35"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">
+    主食アレンジメニュー
+  </text>
+  
+  <!-- アレンジ1 -->
+  <rect x="50" y="130" width="700" height="120" fill="white" rx="10" stroke="#FF6B35" stroke-width="2"/>
+  <text x="70" y="165" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">
+    ペペロンチーノ × エスカルゴオーブン焼き
+  </text>
+  <text x="70" y="200" font-family="Arial, sans-serif" font-size="16" fill="#666">
+    ガーリックバターが麺に絡み、コリコリ食感も楽しめる
+  </text>
+  <text x="70" y="230" font-family="Arial, sans-serif" font-size="16" fill="#666">
+    "思考の領域"。
+  </text>
+  
+  <!-- アレンジ2 -->
+  <rect x="50" y="270" width="700" height="120" fill="white" rx="10" stroke="#FF6B35" stroke-width="2"/>
+  <text x="70" y="305" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">
+    マルゲリータピザ × ハンバーグ
+  </text>
+  <text x="70" y="340" font-family="Arial, sans-serif" font-size="16" fill="#666">
+    名付けて"ピザバーガー"。肉厚ハンバーグ＋ピザのチーズで、
+  </text>
+  <text x="70" y="370" font-family="Arial, sans-serif" font-size="16" fill="#666">
+    イタリア×アメリカの融合。
+  </text>
+  
+  <!-- アレンジ3 -->
+  <rect x="50" y="410" width="700" height="120" fill="white" rx="10" stroke="#FF6B35" stroke-width="2"/>
+  <text x="70" y="445" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">
+    ドリア × サラダドレッシング
+  </text>
+  <text x="70" y="480" font-family="Arial, sans-serif" font-size="16" fill="#666">
+    サワークリームのような酸味でコクが増し、
+  </text>
+  <text x="70" y="510" font-family="Arial, sans-serif" font-size="16" fill="#666">
+    焼き固いチーズとベストマッチ。
+  </text>
+  
+  <!-- 装飾 -->
+  <circle cx="730" cy="165" r="15" fill="#FFD93D"/>
+  <circle cx="730" cy="305" r="15" fill="#FFD93D"/>
+  <circle cx="730" cy="445" r="15" fill="#FFD93D"/>
+</svg>

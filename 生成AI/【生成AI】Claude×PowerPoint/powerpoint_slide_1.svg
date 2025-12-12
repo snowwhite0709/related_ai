@@ -1,0 +1,71 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#1a1a2e"/>
+  
+  <!-- Header Section -->
+  <rect x="0" y="0" width="1920" height="200" fill="#16213e"/>
+  
+  <!-- Title -->
+  <text x="960" y="110" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="#f4f4f4" text-anchor="middle">
+    Claude × PowerPointで爆速スライド作成
+  </text>
+  <text x="960" y="160" font-family="Arial, sans-serif" font-size="42" fill="#ffa500" text-anchor="middle">
+    (2つの方法)
+  </text>
+  
+  <!-- Method 1 Box -->
+  <rect x="100" y="280" width="820" height="700" rx="20" fill="#0f3460" stroke="#ffa500" stroke-width="4"/>
+  
+  <!-- Method 1 Title -->
+  <rect x="100" y="280" width="820" height="80" rx="20" fill="#ffa500"/>
+  <text x="510" y="335" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#1a1a2e" text-anchor="middle">
+    方法①：SVGでPowerPointに取り込み＆編集
+  </text>
+  
+  <!-- Method 1 Content -->
+  <text x="140" y="420" font-family="Arial, sans-serif" font-size="28" fill="#f4f4f4">
+    <tspan x="140" dy="0">• Claudeに「○○をSVG形式の図で作って」と指示</tspan>
+    <tspan x="140" dy="55">• 生成後「SVG形式でダウンロード」</tspan>
+    <tspan x="160" dy="55">→ PowerPoint［挿入＞画像］で読み込み</tspan>
+    <tspan x="140" dy="55">• 画像を選択 → ［グラフィック形式＞図に変換］</tspan>
+    <tspan x="160" dy="55">→ 分解して文字／色／図形を自由に修正可能</tspan>
+  </text>
+  
+  <!-- Best Practice Badge -->
+  <rect x="140" y="820" width="740" height="120" rx="15" fill="#16213e" stroke="#4ecca3" stroke-width="3"/>
+  <text x="510" y="865" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#4ecca3" text-anchor="middle">
+    👉 最適解
+  </text>
+  <text x="510" y="910" font-family="Arial, sans-serif" font-size="28" fill="#f4f4f4" text-anchor="middle">
+    9割Claudeで作成＋最後の1割だけパワポで微調整
+  </text>
+  
+  <!-- Method 2 Box -->
+  <rect x="1000" y="280" width="820" height="700" rx="20" fill="#0f3460" stroke="#ffa500" stroke-width="4"/>
+  
+  <!-- Method 2 Title -->
+  <rect x="1000" y="280" width="820" height="80" rx="20" fill="#ffa500"/>
+  <text x="1410" y="335" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#1a1a2e" text-anchor="middle">
+    方法②：Claude内のスライドをそのまま活用
+  </text>
+  
+  <!-- Method 2 Content -->
+  <text x="1040" y="420" font-family="Arial, sans-serif" font-size="28" fill="#f4f4f4">
+    <tspan x="1040" dy="0">• 例：「AI活用の企画書を、5枚、16:9の</tspan>
+    <tspan x="1060" dy="50">プレゼン用で」と依頼</tspan>
+    <tspan x="1040" dy="55">• Claudeがプロ並みデザインのスライドを</tspan>
+    <tspan x="1060" dy="50">自動生成</tspan>
+    <tspan x="1040" dy="55">• 右上の HTML形式で開く</tspan>
+    <tspan x="1060" dy="50">→ ブラウザ上ですぐプレゼン可能</tspan>
+    <tspan x="1040" dy="55">• URL共有だけで資料配布も完了</tspan>
+  </text>
+  
+  <!-- Time Saving Badge -->
+  <rect x="1040" y="820" width="740" height="120" rx="15" fill="#16213e" stroke="#4ecca3" stroke-width="3"/>
+  <text x="1410" y="865" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#4ecca3" text-anchor="middle">
+    ⏱ 緊急対応の例
+  </text>
+  <text x="1410" y="910" font-family="Arial, sans-serif" font-size="28" fill="#f4f4f4" text-anchor="middle">
+    30分で10枚のセミナー資料が完成するイメージ
+  </text>
+</svg>

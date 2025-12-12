@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>サイゼリヤアレンジメニュー</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Arial', 'Hiragino Sans', 'Yu Gothic', sans-serif;
+            overflow: hidden;
+            background: #f5f5f5;
+        }
+        
+        .presentation {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        
+        .slide {
+            width: 90%;
+            max-width: 1000px;
+            height: 90%;
+            max-height: 700px;
+            background: #FFF8E7;
+            border-radius: 20px;
+            box-shadow: 0 10px 40px rgba(0,0,0,0.2);
+            display: none;
+            flex-direction: column;
+            animation: fadeIn 0.5s;
+        }
+        
+        .slide.active {
+            display: flex;
+        }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        
+        .slide-header {
+            padding: 40px;
+            border-radius: 20px 20px 0 0;
+            text-align: center;
+        }
+        
+        .slide-header h1 {
+            color: white;
+            font-size: 2.5em;
+            font-weight: bold;
+        }
+        
+        .slide-content {
+            flex: 1;
+            padding: 30px 50px;
+            overflow-y: auto;
+        }
+        
+        .arrange-item {
+            background: white;
+            padding: 25px;
+            margin-bottom: 20px;
+            border-radius: 15px;
+            border-left: 5px solid;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            transition: transform 0.3s;
+        }
+        
+        .arrange-item:hover {
+            transform: translateX(10px);
+        }
+        
+        .arrange-item h3 {
+            font-size: 1.5em;
+            margin-bottom: 10px;
+            color: #333;
+        }
+        
+        .arrange-item p {
+            color: #666;
+            font-size: 1.1em;
+            line-height: 1.6;
+        }
+        
+        /* スライド1 */
+        #slide1 .slide-header {
+            background: #FF6B35;
+        }
+        
+        #slide1 .arrange-item {
+            border-left-color: #FF6B35;
+        }
+        
+        /* スライド2 */
+        #slide2 .slide-header {
+            background: #4ECDC4;
+        }
+        
+        #slide2 .arrange-item {
+            border-left-color: #4ECDC4;
+        }
+        
+        /* スライド3 */
+        #slide3 .slide-header {
+            background: #9B59B6;
+        }
+        
+        #slide3 .arrange-item {
+            border-left-color: #9B59B6;
+        }
+        
+        .controls {
+            position: fixed;
+            bottom: 30px;
+            left: 50%;
+            transform: translateX(-50%);
+            display: flex;
+            gap: 15px;
+            z-index: 1000;
+        }
+        
+        .controls button {
+            padding: 15px 30px;
+            font-size: 1.1em;
+            border: none;
+            border-radius: 50px;
+            background: white;
+            color: #333;
+            cursor: pointer;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+            transition: all 0.3s;
+            font-weight: bold;
+        }
+        
+        .controls button:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+        }
+        
+        .controls button:disabled {
+            opacity: 0.5;
+            cursor: not-allowed;
+        }
+        
+        .slide-number {
+            position: fixed;
+            top: 20px;
+            right: 30px;
+            background: white;
+            padding: 10px 20px;
+            border-radius: 25px;
+            font-weight: bold;
+            color: #333;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        
+        .emoji {
+            display: inline-block;
+            margin-right: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="presentation">
+        <!-- スライド1: 主食アレンジ -->
+        <div id="slide1" class="slide active">
+            <div class="slide-header">
+                <h1>🍝 主食アレンジメニュー</h1>
+            </div>
+            <div class="slide-content">
+                <div class="arrange-item">
+                    <h3>ペペロンチーノ × エスカルゴオーブン焼き</h3>
+                    <p>ガーリックバターが麺に絡み、コリコリ食感も楽しめる"思考の領域"。</p>
+                </div>
+                <div class="arrange-item">
+                    <h3>マルゲリータピザ × ハンバーグ</h3>
+                    <p>名付けて"ピザバーガー"。肉厚ハンバーグ＋ピザのチーズで、イタリア×アメリカの融合。</p>
+                </div>
+                <div class="arrange-item">
+                    <h3>ドリア × サラダドレッシング</h3>
+                    <p>サワークリームのような酸味でコクが増し、焼き固いチーズとベストマッチ。</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- スライド2: おつまみ&ドリンク -->
+        <div id="slide2" class="slide">
+            <div class="slide-header">
+                <h1>🍷 おつまみ&ドリンク系アレンジ</h1>
+            </div>
+            <div class="slide-content">
+                <div class="arrange-item">
+                    <h3>赤ワイン × コーラ</h3>
+                    <p>バローロ風カクテルに。飲みやすくて危険な美味しさ。</p>
+                </div>
+                <div class="arrange-item">
+                    <h3>赤ワイン × ジンジャーエール</h3>
+                    <p>"キティカクテル"。甘みとスパイスのバランス抜群。</p>
+                </div>
+                <div class="arrange-item">
+                    <h3>赤ワイン × カルピス</h3>
+                    <p>ミルキー&フルーティ。デザート感覚で楽しめる。</p>
+                </div>
+                <div class="arrange-item">
+                    <h3>コーンスープ × カリッとポテト</h3>
+                    <p>ディップスタイルの"無限おつまみ"。食感が最高。</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- スライド3: 上級アレンジ -->
+        <div id="slide3" class="slide">
+            <div class="slide-header">
+                <h1>⭐ こだわり強めの上級アレンジ</h1>
+            </div>
+            <div class="slide-content">
+                <div class="arrange-item">
+                    <h3>たっぷりコーンピザ × ポップコーンシュリンプ</h3>
+                    <p>甘み×プリプリ食感"エビコーンピザ"。ホワイトソースが絡んで背徳の味。</p>
+                </div>
+                <div class="arrange-item">
+                    <h3>若鶏のディアボラ風 × 野菜ペスト × ビール</h3>
+                    <p>シャキッと野菜とチキンの旨味がビールを無限に呼ぶ"最強コンボ"。</p>
+                </div>
+                <div class="arrange-item">
+                    <h3>トリフアイス × フルーツソース</h3>
+                    <p>甘さと酸味の"甘酸っぱいフィニッシュ"。子供の発想は侮れない。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <div class="slide-number">
+        <span id="current-slide">1</span> / 3
+    </div>
+    
+    <div class="controls">
+        <button id="prev-btn" onclick="changeSlide(-1)">← 前へ</button>
+        <button id="next-btn" onclick="changeSlide(1)">次へ →</button>
+    </div>
+    
+    <script>
+        let currentSlide = 1;
+        const totalSlides = 3;
+        
+        function showSlide(n) {
+            const slides = document.querySelectorAll('.slide');
+            slides.forEach(slide => slide.classList.remove('active'));
+            
+            document.getElementById(`slide${n}`).classList.add('active');
+            document.getElementById('current-slide').textContent = n;
+            
+            // ボタンの状態を更新
+            document.getElementById('prev-btn').disabled = (n === 1);
+            document.getElementById('next-btn').disabled = (n === totalSlides);
+        }
+        
+        function changeSlide(direction) {
+            currentSlide += direction;
+            if (currentSlide < 1) currentSlide = 1;
+            if (currentSlide > totalSlides) currentSlide = totalSlides;
+            showSlide(currentSlide);
+        }
+        
+        // キーボード操作
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'ArrowLeft') changeSlide(-1);
+            if (e.key === 'ArrowRight') changeSlide(1);
+        });
+        
+        // 初期表示
+        showSlide(1);
+    </script>
+</body>
+</html>

@@ -1,0 +1,71 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#1a1a2e"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1920" height="150" fill="#16213e"/>
+  <text x="960" y="95" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#f4f4f4" text-anchor="middle">
+    Claudeの進化：リサーチ＋図解＋レポートを一気通貫
+  </text>
+  
+  <!-- Section 1: Traditional Flow -->
+  <rect x="100" y="200" width="1720" height="180" rx="15" fill="#8b0000" opacity="0.7"/>
+  <text x="120" y="245" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ffffff">
+    ■ 従来の非効率な流れ
+  </text>
+  <text x="150" y="295" font-family="Arial, sans-serif" font-size="28" fill="#f4f4f4">
+    <tspan x="150" dy="0">Google検索 → 複数記事 → 自分で要約 → 図解 → パワポ化</tspan>
+  </text>
+  <text x="150" y="340" font-family="Arial, sans-serif" font-size="26" fill="#ffcccc">
+    <tspan x="150" dy="0">⏳ 1時間以上 ・ 情報抜けや古い記事のリスク</tspan>
+  </text>
+  
+  <!-- Section 2: Old AI Style -->
+  <rect x="100" y="410" width="1720" height="160" rx="15" fill="#b8860b" opacity="0.6"/>
+  <text x="120" y="455" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ffffff">
+    ■ 過去のAI活用例（旧スタイル）
+  </text>
+  <text x="150" y="510" font-family="Arial, sans-serif" font-size="28" fill="#f4f4f4">
+    <tspan x="150" dy="0">Geminiでレポート → Claudeへコピペして「図にして」依頼</tspan>
+  </text>
+  
+  <!-- Section 3: Latest Claude -->
+  <rect x="100" y="600" width="1720" height="340" rx="15" fill="#0f3460" stroke="#4ecca3" stroke-width="4"/>
+  <text x="120" y="645" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#4ecca3">
+    ■ 最新のClaudeで完結
+  </text>
+  <text x="150" y="700" font-family="Arial, sans-serif" font-size="28" fill="#f4f4f4">
+    <tspan x="150" dy="0">• 指示例：「2025年の生成AIトレンドを最新情報で調査して、</tspan>
+    <tspan x="180" dy="45">図付きレポートにして」</tspan>
+    <tspan x="150" dy="60">• Claudeが リサーチ → 分析 → 図解 → レポート生成</tspan>
+    <tspan x="180" dy="45">を1ツールで完結</tspan>
+  </text>
+  
+  <!-- Section 4: Important Consideration -->
+  <rect x="100" y="970" width="840" height="80" rx="12" fill="#16213e"/>
+  <text x="520" y="1020" font-family="Arial, sans-serif" font-size="26" fill="#ffa500" text-anchor="middle">
+    ■ それでも大切な考え方
+  </text>
+  
+  <!-- Tool Comparison Boxes -->
+  <rect x="980" y="970" width="400" height="80" rx="12" fill="#4169e1" opacity="0.8"/>
+  <text x="1180" y="1000" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Gemini
+  </text>
+  <text x="1180" y="1030" font-family="Arial, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">
+    = 情報収集が得意
+  </text>
+  
+  <rect x="1420" y="970" width="400" height="80" rx="12" fill="#9370db" opacity="0.8"/>
+  <text x="1620" y="1000" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    Claude
+  </text>
+  <text x="1620" y="1030" font-family="Arial, sans-serif" font-size="22" fill="#ffffff" text-anchor="middle">
+    = 図解・文章構成が得意
+  </text>
+  
+  <!-- Bottom Message -->
+  <text x="960" y="1065" font-family="Arial, sans-serif" font-size="26" font-weight="bold" fill="#4ecca3" text-anchor="middle">
+    👉 得意分野を理解して使い分け・組み合わせが最強
+  </text>
+</svg>

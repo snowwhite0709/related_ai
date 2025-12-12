@@ -1,0 +1,58 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="800" height="600" fill="#FFF8E7"/>
+  
+  <!-- タイトル背景 -->
+  <rect x="0" y="0" width="800" height="100" fill="#9B59B6"/>
+  
+  <!-- タイトル -->
+  <text x="400" y="60" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">
+    こだわり強めの上級アレンジ
+  </text>
+  
+  <!-- アレンジ1 -->
+  <rect x="50" y="130" width="700" height="120" fill="white" rx="10" stroke="#9B59B6" stroke-width="2"/>
+  <text x="70" y="165" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">
+    たっぷりコーンピザ × ポップコーンシュリンプ
+  </text>
+  <text x="70" y="200" font-family="Arial, sans-serif" font-size="16" fill="#666">
+    甘み×プリプリ食感"エビコーンピザ"。
+  </text>
+  <text x="70" y="230" font-family="Arial, sans-serif" font-size="16" fill="#666">
+    ホワイトソースが絡んで背徳の味。
+  </text>
+  
+  <!-- アレンジ2 -->
+  <rect x="50" y="270" width="700" height="120" fill="white" rx="10" stroke="#9B59B6" stroke-width="2"/>
+  <text x="70" y="305" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">
+    若鶏のディアボラ風 × 野菜ペスト × ビール
+  </text>
+  <text x="70" y="340" font-family="Arial, sans-serif" font-size="16" fill="#666">
+    シャキッと野菜とチキンの旨味がビールを無限に呼ぶ
+  </text>
+  <text x="70" y="370" font-family="Arial, sans-serif" font-size="16" fill="#666">
+    "最強コンボ"。
+  </text>
+  
+  <!-- アレンジ3 -->
+  <rect x="50" y="410" width="700" height="120" fill="white" rx="10" stroke="#9B59B6" stroke-width="2"/>
+  <text x="70" y="445" font-family="Arial, sans-serif" font-size="22" font-weight="bold" fill="#333">
+    トリフアイス × フルーツソース
+  </text>
+  <text x="70" y="480" font-family="Arial, sans-serif" font-size="16" fill="#666">
+    甘さと酸味の"甘酸っぱいフィニッシュ"。
+  </text>
+  <text x="70" y="510" font-family="Arial, sans-serif" font-size="16" fill="#666">
+    子供の発想は侮れない。
+  </text>
+  
+  <!-- 装飾 -->
+  <circle cx="730" cy="165" r="15" fill="#FFD93D"/>
+  <circle cx="730" cy="305" r="15" fill="#FFD93D"/>
+  <circle cx="730" cy="445" r="15" fill="#FFD93D"/>
+  
+  <!-- 特別マーク -->
+  <text x="730" y="175" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#9B59B6" text-anchor="middle">★</text>
+  <text x="730" y="315" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#9B59B6" text-anchor="middle">★</text>
+  <text x="730" y="455" font-family="Arial, sans-serif" font-size="18" font-weight="bold" fill="#9B59B6" text-anchor="middle">★</text>
+</svg>

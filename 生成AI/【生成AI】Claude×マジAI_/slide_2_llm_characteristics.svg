@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1920" height="180" fill="#2c3e50"/>
+  <text x="960" y="110" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="white" text-anchor="middle">
+    LLM（大規模言語モデル）の特性理解が鍵
+  </text>
+  
+  <!-- Main Concept Box -->
+  <g transform="translate(120, 220)">
+    <rect x="0" y="0" width="1680" height="140" fill="#9b59b6" rx="15"/>
+    <text x="840" y="60" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">
+      LLMとは「思いつきで話す、記憶力ゼロの天才」
+    </text>
+    <text x="840" y="110" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle">
+      🧠 高い能力 + ⚠️ 独特の制約
+    </text>
+  </g>
+  
+  <!-- Two Characteristics -->
+  <g transform="translate(120, 400)">
+    <!-- Memory Zero -->
+    <rect x="0" y="0" width="800" height="280" fill="#e8f5e9" rx="12" stroke="#4caf50" stroke-width="3"/>
+    <text x="400" y="50" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#2e7d32" text-anchor="middle">
+      ① 記憶力ゼロ
+    </text>
+    <text x="60" y="110" font-family="Arial, sans-serif" font-size="30" fill="#2c3e50">
+      • 過去の対話を学習していない
+    </text>
+    <text x="60" y="160" font-family="Arial, sans-serif" font-size="30" fill="#2c3e50">
+      • 毎回すべて読み込んで返答
+    </text>
+    <text x="60" y="210" font-family="Arial, sans-serif" font-size="30" fill="#2c3e50">
+      • 履歴が長いと混乱しやすい
+    </text>
+    
+    <!-- Context Window -->
+    <rect x="880" y="0" width="800" height="280" fill="#fff3e0" rx="12" stroke="#ff9800" stroke-width="3"/>
+    <text x="1280" y="50" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#e65100" text-anchor="middle">
+      ② コンテキストウィンドウ
+    </text>
+    <text x="940" y="110" font-family="Arial, sans-serif" font-size="30" fill="#2c3e50">
+      • AIの「思考キャパ」
+    </text>
+    <text x="940" y="160" font-family="Arial, sans-serif" font-size="30" fill="#2c3e50">
+      • 読める量に上限がある
+    </text>
+    <text x="940" y="210" font-family="Arial, sans-serif" font-size="30" fill="#2c3e50">
+      • 容量を超えると性能低下
+    </text>
+  </g>
+  
+  <!-- Key Principles Box -->
+  <g transform="translate(120, 720)">
+    <rect x="0" y="0" width="1680" height="280" fill="#3498db" rx="15"/>
+    <text x="840" y="55" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="white" text-anchor="middle">
+      出力の質を高めるための原則
+    </text>
+    
+    <g transform="translate(80, 100)">
+      <circle cx="20" cy="0" r="15" fill="white"/>
+      <text x="60" y="10" font-family="Arial, sans-serif" font-size="36" fill="white">
+        複雑な指示を丸投げしない → 「やるべきことを1つに絞る」
+      </text>
+    </g>
+    
+    <g transform="translate(80, 180)">
+      <circle cx="20" cy="0" r="15" fill="white"/>
+      <text x="60" y="10" font-family="Arial, sans-serif" font-size="36" fill="white">
+        誤解・混乱を防ぐため、情報量の管理が重要
+      </text>
+    </g>
+  </g>
+  
+  <!-- Footer -->
+  <text x="1800" y="1050" font-family="Arial, sans-serif" font-size="32" fill="#7f8c8d" text-anchor="end">2 / 3</text>
+</svg>

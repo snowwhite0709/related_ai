@@ -1,0 +1,76 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1920" height="180" fill="#2c3e50"/>
+  <text x="960" y="110" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="white" text-anchor="middle">
+    誰でもAIの質を高められる2つの具体的なコツ
+  </text>
+  
+  <!-- Tip 1 -->
+  <g transform="translate(120, 220)">
+    <rect x="0" y="0" width="1680" height="360" fill="#e3f2fd" rx="15" stroke="#1976d2" stroke-width="4"/>
+    
+    <!-- Title -->
+    <circle cx="50" cy="50" r="35" fill="#1976d2"/>
+    <text x="50" y="65" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle">1</text>
+    <text x="120" y="65" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="#1976d2">
+      コツ1：まず計画だけさせる
+    </text>
+    
+    <!-- Content -->
+    <text x="60" y="130" font-family="Arial, sans-serif" font-size="32" fill="#2c3e50">
+      • いきなり複雑な依頼をせず、まず作業計画を作らせる
+    </text>
+    <text x="60" y="185" font-family="Arial, sans-serif" font-size="32" fill="#2c3e50">
+      • 例：競合調査 → まず「調査手順」を作らせる
+    </text>
+    
+    <!-- Effect Box -->
+    <rect x="60" y="220" width="1560" height="100" fill="#1976d2" opacity="0.15" rx="8"/>
+    <text x="90" y="260" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#1565c0">
+      効果：
+    </text>
+    <text x="180" y="260" font-family="Arial, sans-serif" font-size="30" fill="#1565c0">
+      AIの思考負荷を下げ、ユーザー側も計画段階で修正可能
+    </text>
+  </g>
+  
+  <!-- Tip 2 -->
+  <g transform="translate(120, 620)">
+    <rect x="0" y="0" width="1680" height="380" fill="#fff3e0" rx="15" stroke="#f57c00" stroke-width="4"/>
+    
+    <!-- Title -->
+    <circle cx="50" cy="50" r="35" fill="#f57c00"/>
+    <text x="50" y="65" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="white" text-anchor="middle">2</text>
+    <text x="120" y="65" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="#f57c00">
+      コツ2：ダメ出しより"やり直し"
+    </text>
+    
+    <!-- Content -->
+    <text x="60" y="130" font-family="Arial, sans-serif" font-size="32" fill="#2c3e50">
+      • 不満な回答が出たら、チャット内で修正指示を積み重ねない
+    </text>
+    <text x="60" y="185" font-family="Arial, sans-serif" font-size="32" fill="#2c3e50">
+      • ノイズが増えてAIが混乱する → 元の指示を改善して再投入
+    </text>
+    
+    <!-- Examples Box -->
+    <rect x="60" y="225" width="1560" height="120" fill="#f57c00" opacity="0.15" rx="8"/>
+    <g transform="translate(90, 260)">
+      <text x="0" y="0" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="#e65100">良い例：</text>
+      <text x="120" y="0" font-family="Arial, sans-serif" font-size="30" fill="#d84315">
+        ✗「丁寧なメール作って」
+      </text>
+    </g>
+    <g transform="translate(90, 310)">
+      <text x="120" y="0" font-family="Arial, sans-serif" font-size="30" fill="#2e7d32" font-weight="bold">
+        ✓「丁寧さと親しみやすさの両方を感じられるトーンでメールを作って」
+      </text>
+    </g>
+  </g>
+  
+  <!-- Footer -->
+  <text x="1800" y="1050" font-family="Arial, sans-serif" font-size="32" fill="#7f8c8d" text-anchor="end">3 / 3</text>
+</svg>

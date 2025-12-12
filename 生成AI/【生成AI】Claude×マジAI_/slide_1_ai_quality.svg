@@ -1,0 +1,64 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+  
+  <!-- Header -->
+  <rect x="0" y="0" width="1920" height="180" fill="#2c3e50"/>
+  <text x="960" y="110" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="white" text-anchor="middle">
+    AI出力の質とユーザーの実力の関係
+  </text>
+  
+  <!-- Main Content Area -->
+  <g transform="translate(120, 240)">
+    <!-- Key Message Box -->
+    <rect x="0" y="0" width="1680" height="160" fill="#3498db" rx="15"/>
+    <text x="840" y="65" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="white" text-anchor="middle">
+      AIの出力は「使う人の仕事の実力」に大きく左右される
+    </text>
+    <text x="840" y="120" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle">
+      新卒 vs 経験豊富な営業部長 → 後者の方が良質な資料を作れる
+    </text>
+  </g>
+  
+  <!-- Two Column Layout -->
+  <g transform="translate(120, 460)">
+    <!-- Left Column - BUT -->
+    <rect x="0" y="0" width="780" height="480" fill="#ecf0f1" rx="12" stroke="#95a5a6" stroke-width="3"/>
+    <text x="390" y="60" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="#e74c3c" text-anchor="middle">
+      しかし…
+    </text>
+    <text x="390" y="150" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#2c3e50" text-anchor="middle">
+      実力 ≠ 経験だけ
+    </text>
+    <circle cx="390" cy="280" r="80" fill="#e74c3c" opacity="0.2"/>
+    <text x="390" y="300" font-family="Arial, sans-serif" font-size="72" fill="#e74c3c" text-anchor="middle">✗</text>
+  </g>
+  
+  <!-- Right Column - Solution -->
+  <g transform="translate(1020, 460)">
+    <rect x="0" y="0" width="780" height="480" fill="#d5f4e6" rx="12" stroke="#27ae60" stroke-width="3"/>
+    <text x="390" y="60" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="#27ae60" text-anchor="middle">
+      誰でも質を上げられる！
+    </text>
+    
+    <g transform="translate(60, 120)">
+      <circle cx="0" cy="0" r="20" fill="#27ae60"/>
+      <text x="40" y="10" font-family="Arial, sans-serif" font-size="32" fill="#2c3e50">
+        AIの仕組みを理解する
+      </text>
+    </g>
+    
+    <g transform="translate(60, 230)">
+      <circle cx="0" cy="0" r="20" fill="#27ae60"/>
+      <text x="40" y="10" font-family="Arial, sans-serif" font-size="32" fill="#2c3e50">
+        適切に使うコツを知る
+      </text>
+    </g>
+    
+    <circle cx="390" cy="380" r="60" fill="#27ae60" opacity="0.3"/>
+    <text x="390" y="400" font-family="Arial, sans-serif" font-size="64" fill="#27ae60" text-anchor="middle">✓</text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="1800" y="1050" font-family="Arial, sans-serif" font-size="32" fill="#7f8c8d" text-anchor="end">1 / 3</text>
+</svg>

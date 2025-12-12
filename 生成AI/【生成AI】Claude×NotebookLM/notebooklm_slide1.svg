@@ -1,0 +1,70 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- 明るいグラデーション背景 -->
+  <defs>
+    <linearGradient id="bg1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF5E1;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFE4B5;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFDAB9;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF9500;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF6B35;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1920" height="1080" fill="url(#bg1)"/>
+  
+  <!-- 装飾的な円 -->
+  <circle cx="1700" cy="200" r="150" fill="#FFD700" opacity="0.2"/>
+  <circle cx="200" cy="900" r="120" fill="#FF9500" opacity="0.15"/>
+  
+  <!-- タイトルエリア -->
+  <rect x="100" y="100" width="1720" height="200" fill="url(#accent1)" rx="20"/>
+  
+  <!-- メインタイトル -->
+  <text x="960" y="180" font-family="Arial, sans-serif" font-size="72" font-weight="bold" fill="white" text-anchor="middle">
+    NotebookLMとは？ 💡
+  </text>
+  <text x="960" y="250" font-family="Arial, sans-serif" font-size="42" fill="white" text-anchor="middle" opacity="0.95">
+    新しい学習・研究のアシスタント
+  </text>
+  
+  <!-- キャッチコピーボックス -->
+  <rect x="200" y="380" width="1520" height="120" fill="#FFF8DC" rx="15" stroke="#FF9500" stroke-width="4"/>
+  <text x="960" y="455" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#FF6B35" text-anchor="middle">
+    ✨ あなただけのパーソナルAIアシスタント ✨
+  </text>
+  
+  <!-- 概要セクション -->
+  <rect x="150" y="540" width="1620" height="200" fill="white" rx="15" opacity="0.9"/>
+  <text x="200" y="600" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#333">
+    📚 概要
+  </text>
+  <text x="220" y="655" font-family="Arial, sans-serif" font-size="32" fill="#444">
+    大量の資料をアップロードし、その内容に基づいてAIが
+  </text>
+  <text x="220" y="700" font-family="Arial, sans-serif" font-size="32" fill="#444">
+    質問応答、要約、アイデア出しをサポートするツール
+  </text>
+  
+  <!-- メリットセクション -->
+  <rect x="150" y="780" width="1620" height="220" fill="white" rx="15" opacity="0.9"/>
+  <text x="200" y="840" font-family="Arial, sans-serif" font-size="38" font-weight="bold" fill="#333">
+    🎯 メリット
+  </text>
+  
+  <circle cx="250" cy="900" r="12" fill="#FF9500"/>
+  <text x="280" y="910" font-family="Arial, sans-serif" font-size="32" fill="#444">
+    情報収集の効率化 → 必要な情報に素早くアクセス
+  </text>
+  
+  <circle cx="250" cy="950" r="12" fill="#FF9500"/>
+  <text x="280" y="960" font-family="Arial, sans-serif" font-size="32" fill="#444">
+    思考の深化 → AIとの対話で新たな視点を獲得
+  </text>
+  
+  <circle cx="950" cy="950" r="12" fill="#FF9500"/>
+  <text x="980" y="960" font-family="Arial, sans-serif" font-size="32" fill="#444">
+    インサイトの発見 → データから隠れた価値を引き出す
+  </text>
+</svg>

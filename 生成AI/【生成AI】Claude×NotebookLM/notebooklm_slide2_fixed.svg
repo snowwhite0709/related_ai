@@ -1,0 +1,127 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- 明るいグラデーション背景 -->
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#E6F3FF;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#CCE7FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#B3DBFF;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#0080FF;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00B4D8;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1920" height="1080" fill="url(#bg2)"/>
+  
+  <!-- 装飾的な要素 -->
+  <circle cx="1750" cy="150" r="100" fill="#00B4D8" opacity="0.2"/>
+  <circle cx="150" cy="950" r="90" fill="#0080FF" opacity="0.15"/>
+  
+  <!-- タイトルエリア -->
+  <rect x="100" y="80" width="1720" height="140" fill="url(#accent2)" rx="20"/>
+  <text x="960" y="165" font-family="Arial, sans-serif" font-size="68" font-weight="bold" fill="white" text-anchor="middle">
+    使い方は簡単3ステップ！ 🚀
+  </text>
+  
+  <!-- ステップ1 -->
+  <rect x="100" y="280" width="500" height="700" fill="white" rx="15" opacity="0.95"/>
+  <circle cx="350" cy="340" r="50" fill="#FF6B6B" stroke="white" stroke-width="5"/>
+  <text x="350" y="360" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">1</text>
+  
+  <text x="350" y="440" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#333" text-anchor="middle">
+    📁 ソースの
+  </text>
+  <text x="350" y="485" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#333" text-anchor="middle">
+    アップロード
+  </text>
+  
+  <text x="140" y="560" font-family="Arial, sans-serif" font-size="26" fill="#555">
+    対応ファイル形式:
+  </text>
+  <circle cx="160" cy="610" r="8" fill="#0080FF"/>
+  <text x="180" y="618" font-family="Arial, sans-serif" font-size="24" fill="#666">PDF ドキュメント</text>
+  <circle cx="160" cy="655" r="8" fill="#0080FF"/>
+  <text x="180" y="663" font-family="Arial, sans-serif" font-size="24" fill="#666">Word / Google Docs</text>
+  <circle cx="160" cy="700" r="8" fill="#0080FF"/>
+  <text x="180" y="708" font-family="Arial, sans-serif" font-size="24" fill="#666">Webリンク / URL</text>
+  <circle cx="160" cy="745" r="8" fill="#0080FF"/>
+  <text x="180" y="753" font-family="Arial, sans-serif" font-size="24" fill="#666">テキストファイル</text>
+  
+  <text x="350" y="850" font-family="Arial, sans-serif" font-size="28" fill="#888" text-anchor="middle" font-style="italic">
+    まずは資料を
+  </text>
+  <text x="350" y="890" font-family="Arial, sans-serif" font-size="28" fill="#888" text-anchor="middle" font-style="italic">
+    集めましょう！
+  </text>
+  
+  <!-- ステップ2 -->
+  <rect x="710" y="280" width="500" height="700" fill="white" rx="15" opacity="0.95"/>
+  <circle cx="960" cy="340" r="50" fill="#4ECDC4" stroke="white" stroke-width="5"/>
+  <text x="960" y="360" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">2</text>
+  
+  <text x="960" y="440" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#333" text-anchor="middle">
+    📝 ノートブックの
+  </text>
+  <text x="960" y="485" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#333" text-anchor="middle">
+    作成
+  </text>
+  
+  <rect x="750" y="540" width="420" height="280" fill="#F0F8FF" rx="10" stroke="#4ECDC4" stroke-width="3"/>
+  <text x="960" y="590" font-family="Arial, sans-serif" font-size="26" fill="#555" text-anchor="middle" font-weight="bold">
+    AIが自動生成 ✨
+  </text>
+  <text x="770" y="640" font-family="Arial, sans-serif" font-size="24" fill="#666">
+    • 要約の作成
+  </text>
+  <text x="770" y="680" font-family="Arial, sans-serif" font-size="24" fill="#666">
+    • 重要用語の抽出
+  </text>
+  <text x="770" y="720" font-family="Arial, sans-serif" font-size="24" fill="#666">
+    • キーポイントの整理
+  </text>
+  <text x="770" y="760" font-family="Arial, sans-serif" font-size="24" fill="#666">
+    • 目次の生成
+  </text>
+  
+  <text x="960" y="880" font-family="Arial, sans-serif" font-size="28" fill="#888" text-anchor="middle" font-style="italic">
+    AIがスマートに
+  </text>
+  <text x="960" y="920" font-family="Arial, sans-serif" font-size="28" fill="#888" text-anchor="middle" font-style="italic">
+    整理してくれます
+  </text>
+  
+  <!-- ステップ3 -->
+  <rect x="1320" y="280" width="500" height="700" fill="white" rx="15" opacity="0.95"/>
+  <circle cx="1570" cy="340" r="50" fill="#95E1D3" stroke="white" stroke-width="5"/>
+  <text x="1570" y="360" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="white" text-anchor="middle">3</text>
+  
+  <text x="1570" y="440" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#333" text-anchor="middle">
+    💬 AIとの対話・
+  </text>
+  <text x="1570" y="485" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#333" text-anchor="middle">
+    アウトプット
+  </text>
+  
+  <text x="1360" y="560" font-family="Arial, sans-serif" font-size="26" fill="#555">
+    活用シーン:
+  </text>
+  <circle cx="1380" cy="610" r="8" fill="#95E1D3"/>
+  <text x="1400" y="618" font-family="Arial, sans-serif" font-size="24" fill="#666">質問応答</text>
+  <text x="1400" y="648" font-family="Arial, sans-serif" font-size="20" fill="#999">「この資料の要点は?」</text>
+  
+  <circle cx="1380" cy="695" r="8" fill="#95E1D3"/>
+  <text x="1400" y="703" font-family="Arial, sans-serif" font-size="24" fill="#666">要約作成</text>
+  <text x="1400" y="733" font-family="Arial, sans-serif" font-size="20" fill="#999">「100字でまとめて」</text>
+  
+  <circle cx="1380" cy="780" r="8" fill="#95E1D3"/>
+  <text x="1400" y="788" font-family="Arial, sans-serif" font-size="24" fill="#666">アイデア出し</text>
+  <text x="1400" y="818" font-family="Arial, sans-serif" font-size="20" fill="#999">「新しい視点を提案」</text>
+  
+  <text x="1570" y="900" font-family="Arial, sans-serif" font-size="28" fill="#888" text-anchor="middle" font-style="italic">
+    あなたの創造性を
+  </text>
+  <text x="1570" y="940" font-family="Arial, sans-serif" font-size="28" fill="#888" text-anchor="middle" font-style="italic">
+    最大化！
+  </text>
+</svg>
