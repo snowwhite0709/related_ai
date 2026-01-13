@@ -1,0 +1,80 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#0f172a"/>
+  
+  <!-- Gradient overlay -->
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#grad3)"/>
+  
+  <!-- Title -->
+  <text x="960" y="120" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    実際に作らせてみた結果
+  </text>
+  
+  <!-- Section 1: Slide Creation -->
+  <g transform="translate(150, 220)">
+    <rect x="0" y="0" width="1620" height="110" fill="#1e293b" stroke="#3b82f6" stroke-width="2" rx="10"/>
+    <text x="30" y="45" font-family="Arial, sans-serif" font-size="36" fill="#ffffff" font-weight="bold">📊 スライド作成</text>
+    <text x="30" y="85" font-family="Arial, sans-serif" font-size="32" fill="#e2e8f0">→ Gemini:</text>
+    <text x="200" y="85" font-family="Arial, sans-serif" font-size="32" fill="#8b5cf6" font-weight="bold">最も完成度が高い</text>
+  </g>
+  
+  <!-- Section 2: Spreadsheet -->
+  <g transform="translate(150, 360)">
+    <rect x="0" y="0" width="1620" height="150" fill="#1e293b" stroke="#3b82f6" stroke-width="2" rx="10"/>
+    <text x="30" y="45" font-family="Arial, sans-serif" font-size="36" fill="#ffffff" font-weight="bold">📈 スプレッドシート</text>
+    <text x="30" y="90" font-family="Arial, sans-serif" font-size="32" fill="#e2e8f0">→ Claude:</text>
+    <text x="200" y="90" font-family="Arial, sans-serif" font-size="32" fill="#f59e0b" font-weight="bold">分析視点</text>
+    <text x="30" y="130" font-family="Arial, sans-serif" font-size="32" fill="#e2e8f0">→ Gemini:</text>
+    <text x="200" y="130" font-family="Arial, sans-serif" font-size="32" fill="#8b5cf6" font-weight="bold">条件忠実</text>
+  </g>
+  
+  <!-- Section 3: Web Page -->
+  <g transform="translate(150, 540)">
+    <rect x="0" y="0" width="1620" height="110" fill="#1e293b" stroke="#3b82f6" stroke-width="2" rx="10"/>
+    <text x="30" y="45" font-family="Arial, sans-serif" font-size="36" fill="#ffffff" font-weight="bold">🌐 Webページ</text>
+    <text x="30" y="85" font-family="Arial, sans-serif" font-size="32" fill="#e2e8f0">→ Gemini</text>
+    <text x="200" y="85" font-family="Arial, sans-serif" font-size="32" fill="#8b5cf6" font-weight="bold">が頭一つ抜ける</text>
+  </g>
+  
+  <!-- Summary Box -->
+  <g transform="translate(150, 700)">
+    <rect x="0" y="0" width="1620" height="90" fill="#4c1d95" stroke="#8b5cf6" stroke-width="4" rx="12"/>
+    <text x="30" y="60" font-family="Arial, sans-serif" font-size="40" fill="#ffffff" font-weight="bold">
+      👉 アウトプット系はGeminiが強い
+    </text>
+  </g>
+  
+  <!-- Comparison Diagram -->
+  <g transform="translate(280, 840)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="32" fill="#94a3b8" font-weight="bold">同じ指示</text>
+    
+    <!-- Arrow -->
+    <path d="M 180 -10 L 280 -10" stroke="#60a5fa" stroke-width="4" fill="none"/>
+    <polygon points="280,-10 270,-5 270,-15" fill="#60a5fa"/>
+    
+    <!-- Three outputs -->
+    <rect x="300" y="-45" width="180" height="70" fill="#10b981" rx="6"/>
+    <text x="390" y="0" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">ChatGPT</text>
+    
+    <rect x="510" y="-45" width="180" height="70" fill="#f59e0b" rx="6"/>
+    <text x="600" y="0" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">Claude</text>
+    
+    <rect x="720" y="-45" width="180" height="70" fill="#8b5cf6" rx="6"/>
+    <text x="810" y="0" font-family="Arial, sans-serif" font-size="24" fill="#ffffff" text-anchor="middle" font-weight="bold">Gemini</text>
+    
+    <!-- Star for winner -->
+    <text x="810" y="-60" font-family="Arial, sans-serif" font-size="40" text-anchor="middle">⭐</text>
+  </g>
+  
+  <!-- Final Message -->
+  <g transform="translate(150, 980)">
+    <text x="0" y="0" font-family="Arial, sans-serif" font-size="38" fill="#ef4444" font-weight="bold">❌ どれが最強か探す</text>
+    <text x="900" y="0" font-family="Arial, sans-serif" font-size="38" fill="#10b981" font-weight="bold">✅ 何のために使うか決める</text>
+  </g>
+</svg>

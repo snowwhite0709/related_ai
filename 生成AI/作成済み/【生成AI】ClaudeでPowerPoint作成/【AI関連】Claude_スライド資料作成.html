@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Claude × PowerPoint 爆速スライド作成</title>
+    <style>
+        :root {
+            --primary-color: #0078d4;
+            --accent-color: #ff5722;
+            --bg-color: #f4f4f4;
+            --slide-bg: #ffffff;
+            --text-color: #333;
+        }
+
+        body {
+            font-family: 'Segoe UI', Meiryo, sans-serif;
+            background-color: var(--bg-color);
+            margin: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px 0;
+        }
+
+        .slide {
+            width: 960px;
+            height: 540px;
+            background: var(--slide-bg);
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            margin-bottom: 40px;
+            padding: 40px 60px;
+            box-sizing: border-box;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            border-top: 8px solid var(--primary-color);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 32px;
+            margin-bottom: 20px;
+            border-bottom: 2px solid #eee;
+            padding-bottom: 10px;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #444;
+            background: #e7f3ff;
+            padding: 10px 15px;
+            border-left: 5px solid var(--primary-color);
+            margin-top: 10px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        li {
+            margin-bottom: 15px;
+            font-size: 20px;
+            line-height: 1.6;
+            display: flex;
+            align-items: flex-start;
+        }
+
+        li::before {
+            content: "▶";
+            color: var(--primary-color);
+            margin-right: 15px;
+            font-size: 16px;
+            margin-top: 4px;
+        }
+
+        .highlight-box {
+            background-color: #fff9c4;
+            padding: 15px 25px;
+            border-radius: 8px;
+            margin-top: auto;
+            border: 2px dashed var(--accent-color);
+            text-align: center;
+            font-weight: bold;
+            font-size: 22px;
+        }
+
+        .step-container {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px 0;
+        }
+
+        .step {
+            background: #f9f9f9;
+            padding: 10px;
+            border-radius: 4px;
+            width: 30%;
+            text-align: center;
+            font-size: 16px;
+            border: 1px solid #ddd;
+        }
+
+        .footer {
+            position: absolute;
+            bottom: 20px;
+            right: 40px;
+            font-size: 14px;
+            color: #888;
+        }
+
+        span.tag {
+            background: var(--accent-color);
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 14px;
+            margin-right: 10px;
+            vertical-align: middle;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="slide">
+        <h1>Claude × PowerPointで爆速スライド作成</h1>
+        <h2>方法①：SVGでPowerPointに取り込み＆編集</h2>
+        <ul>
+            <li>Claudeに <strong>「○○をSVG形式の図で作って」</strong> と指示</li>
+            <li>生成後 <strong>「SVG形式でダウンロード」</strong> → PowerPoint［挿入＞画像］</li>
+            <li>画像を選択 → <strong>［グラフィック形式＞図に変換］</strong></li>
+            <li>分解して文字／色／図形を自由に修正可能</li>
+        </ul>
+        
+        <div class="highlight-box">
+            👉 最適解：9割Claudeで作成 ＋ 最後の1割だけパワポで微調整
+        </div>
+        <div class="footer">Slide 1/2</div>
+    </div>
+
+    <div class="slide">
+        <h1>Claude × PowerPointで爆速スライド作成</h1>
+        <h2>方法②：Claude内のスライドをそのまま活用</h2>
+        <ul>
+            <li>例：「AI活用の企画書を、5枚、16:9のプレゼン用で」 と依頼</li>
+            <li>Claudeが <strong>プロ並みデザインのスライドを自動生成</strong></li>
+            <li>右上の <strong>HTML形式で開く</strong> → ブラウザ上ですぐプレゼン可能</li>
+            <li>URL共有だけで 資料配布も完了</li>
+        </ul>
+
+        <div class="highlight-box" style="background-color: #e8f5e9; border-color: #4caf50;">
+            ⏱ 緊急対応：30分で10枚のセミナー資料が完成するイメージ
+        </div>
+        <div class="footer">Slide 2/2</div>
+    </div>
+
+</body>
+</html>

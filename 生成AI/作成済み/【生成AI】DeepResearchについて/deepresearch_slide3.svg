@@ -1,0 +1,106 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1920" height="1080" fill="#b71c1c"/>
+  
+  <!-- ヘッダー装飾 -->
+  <rect x="0" y="0" width="1920" height="200" fill="#c62828"/>
+  <circle cx="1700" cy="100" r="120" fill="#d32f2f" opacity="0.3"/>
+  <circle cx="1600" cy="120" r="80" fill="#e53935" opacity="0.2"/>
+  
+  <!-- タイトル -->
+  <text x="100" y="100" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="#ffffff">
+    DeepResearchの回数制限・注意点・実務活用
+  </text>
+  
+  <!-- セクション1：回数制限 -->
+  <rect x="80" y="230" width="560" height="260" rx="15" fill="#c62828"/>
+  <text x="120" y="280" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ffcdd2">
+    ● 回数制限
+  </text>
+  <text x="100" y="320" font-family="Arial, sans-serif" font-size="22" fill="#ffffff">
+    （ChatGPT Plusの場合）
+  </text>
+  <text x="140" y="365" font-family="Arial, sans-serif" font-size="24" fill="#ffebee">
+    • 1日の利用回数に上限あり
+  </text>
+  <text x="160" y="405" font-family="Arial, sans-serif" font-size="22" fill="#ffccbc">
+    （おおよそ10回前後）
+  </text>
+  <text x="140" y="445" font-family="Arial, sans-serif" font-size="24" fill="#ffebee">
+    • 超過時は翌日まで利用不可
+  </text>
+  
+  <!-- セクション2：注意点 -->
+  <rect x="680" y="230" width="560" height="260" rx="15" fill="#c62828"/>
+  <text x="720" y="280" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ffcdd2">
+    ● 注意点
+  </text>
+  <text x="740" y="340" font-family="Arial, sans-serif" font-size="24" fill="#ffebee">
+    • 調査範囲が広すぎると
+  </text>
+  <text x="760" y="375" font-family="Arial, sans-serif" font-size="24" fill="#ffebee">
+    精度が落ちる
+  </text>
+  <text x="780" y="410" font-family="Arial, sans-serif" font-size="22" fill="#ffccbc">
+    → テーマは具体的に
+  </text>
+  <text x="740" y="455" font-family="Arial, sans-serif" font-size="24" fill="#ffebee">
+    • 最新ニュースは
+  </text>
+  <text x="760" y="485" font-family="Arial, sans-serif" font-size="24" fill="#ffebee">
+    タイムラグあり
+  </text>
+  
+  <!-- セクション3：実務での使いどころ -->
+  <rect x="1280" y="230" width="560" height="260" rx="15" fill="#c62828"/>
+  <text x="1320" y="280" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffcdd2">
+    ● 実務での使いどころ
+  </text>
+  <text x="1340" y="330" font-family="Arial, sans-serif" font-size="22" fill="#ffebee">
+    • 競合比較資料
+  </text>
+  <text x="1340" y="365" font-family="Arial, sans-serif" font-size="22" fill="#ffebee">
+    • 市場調査
+  </text>
+  <text x="1340" y="400" font-family="Arial, sans-serif" font-size="22" fill="#ffebee">
+    • ツール導入比較
+  </text>
+  <text x="1340" y="435" font-family="Arial, sans-serif" font-size="22" fill="#ffebee">
+    • 研修資料の背景調査
+  </text>
+  <text x="1340" y="470" font-family="Arial, sans-serif" font-size="22" fill="#ffebee">
+    • 論文内容の深掘り要約
+  </text>
+  
+  <!-- 結論セクション -->
+  <rect x="150" y="560" width="1620" height="380" rx="25" fill="#d32f2f"/>
+  <rect x="170" y="580" width="1580" height="340" rx="20" fill="#e53935" opacity="0.6"/>
+  
+  <text x="960" y="660" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    結論
+  </text>
+  
+  <rect x="300" y="720" width="1320" height="160" rx="15" fill="#b71c1c"/>
+  <text x="960" y="790" font-family="Arial, sans-serif" font-size="44" font-weight="bold" fill="#ffeb3b" text-anchor="middle">
+    DeepResearch =
+  </text>
+  <text x="960" y="850" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    深い調査を数十秒で終わらせる
+  </text>
+  
+  <text x="960" y="910" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffcdd2" text-anchor="middle">
+    仕事の加速装置
+  </text>
+  
+  <!-- 装飾要素 -->
+  <circle cx="250" cy="750" r="70" fill="#ef5350" opacity="0.3"/>
+  <circle cx="1670" cy="780" r="90" fill="#f44336" opacity="0.2"/>
+  <polygon points="120,600 180,560 180,640" fill="#ff5252" opacity="0.4"/>
+  <polygon points="1800,650 1740,690 1740,610" fill="#ff5252" opacity="0.4"/>
+  
+  <!-- フッター -->
+  <rect x="0" y="1030" width="1920" height="50" fill="#7f0000"/>
+  <text x="850" y="1065" font-family="Arial, sans-serif" font-size="24" fill="#ffcdd2">
+    Slide 3 / 3
+  </text>
+</svg>

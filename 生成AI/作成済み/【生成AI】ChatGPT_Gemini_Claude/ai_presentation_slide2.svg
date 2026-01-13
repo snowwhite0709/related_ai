@@ -1,0 +1,78 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#0f172a"/>
+  
+  <!-- Gradient overlay -->
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e40af;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#grad2)"/>
+  
+  <!-- Title -->
+  <text x="960" y="140" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    ChatGPT・Gemini・Claudeの立ち位置
+  </text>
+  
+  <!-- Table Header -->
+  <g transform="translate(200, 240)">
+    <rect x="0" y="0" width="400" height="80" fill="#1e3a8a" rx="8"/>
+    <rect x="420" y="0" width="550" height="80" fill="#1e3a8a" rx="8"/>
+    <rect x="990" y="0" width="530" height="80" fill="#1e3a8a" rx="8"/>
+    
+    <text x="200" y="50" font-family="Arial, sans-serif" font-size="36" fill="#ffffff" text-anchor="middle" font-weight="bold">AI</text>
+    <text x="695" y="50" font-family="Arial, sans-serif" font-size="36" fill="#ffffff" text-anchor="middle" font-weight="bold">得意なこと</text>
+    <text x="1255" y="50" font-family="Arial, sans-serif" font-size="36" fill="#ffffff" text-anchor="middle" font-weight="bold">特徴</text>
+  </g>
+  
+  <!-- Row 1: ChatGPT -->
+  <g transform="translate(200, 340)">
+    <rect x="0" y="0" width="400" height="120" fill="#064e3b" stroke="#10b981" stroke-width="3" rx="8"/>
+    <rect x="420" y="0" width="550" height="120" fill="#1e293b" stroke="#334155" stroke-width="2" rx="8"/>
+    <rect x="990" y="0" width="530" height="120" fill="#1e293b" stroke="#334155" stroke-width="2" rx="8"/>
+    
+    <text x="200" y="70" font-family="Arial, sans-serif" font-size="42" fill="#10b981" text-anchor="middle" font-weight="bold">ChatGPT 5.2</text>
+    <text x="695" y="70" font-family="Arial, sans-serif" font-size="34" fill="#e2e8f0" text-anchor="middle">複雑な思考・分析</text>
+    <text x="1255" y="70" font-family="Arial, sans-serif" font-size="34" fill="#e2e8f0" text-anchor="middle">AIエージェント型</text>
+  </g>
+  
+  <!-- Row 2: Claude -->
+  <g transform="translate(200, 480)">
+    <rect x="0" y="0" width="400" height="120" fill="#78350f" stroke="#f59e0b" stroke-width="3" rx="8"/>
+    <rect x="420" y="0" width="550" height="120" fill="#1e293b" stroke="#334155" stroke-width="2" rx="8"/>
+    <rect x="990" y="0" width="530" height="120" fill="#1e293b" stroke="#334155" stroke-width="2" rx="8"/>
+    
+    <text x="200" y="70" font-family="Arial, sans-serif" font-size="42" fill="#f59e0b" text-anchor="middle" font-weight="bold">Claude Opus 4.5</text>
+    <text x="695" y="70" font-family="Arial, sans-serif" font-size="34" fill="#e2e8f0" text-anchor="middle">整理・構造化</text>
+    <text x="1255" y="70" font-family="Arial, sans-serif" font-size="34" fill="#e2e8f0" text-anchor="middle">気が利く補佐役</text>
+  </g>
+  
+  <!-- Row 3: Gemini -->
+  <g transform="translate(200, 620)">
+    <rect x="0" y="0" width="400" height="120" fill="#4c1d95" stroke="#8b5cf6" stroke-width="3" rx="8"/>
+    <rect x="420" y="0" width="550" height="120" fill="#1e293b" stroke="#334155" stroke-width="2" rx="8"/>
+    <rect x="990" y="0" width="530" height="120" fill="#1e293b" stroke="#334155" stroke-width="2" rx="8"/>
+    
+    <text x="200" y="70" font-family="Arial, sans-serif" font-size="42" fill="#8b5cf6" text-anchor="middle" font-weight="bold">Gemini 3.0</text>
+    <text x="695" y="70" font-family="Arial, sans-serif" font-size="34" fill="#e2e8f0" text-anchor="middle">資料・Web制作</text>
+    <text x="1255" y="70" font-family="Arial, sans-serif" font-size="34" fill="#e2e8f0" text-anchor="middle">スピードと完成度</text>
+  </g>
+  
+  <!-- Key Points -->
+  <g transform="translate(200, 820)">
+    <rect x="0" y="0" width="1520" height="100" fill="#1e293b" stroke="#3b82f6" stroke-width="3" rx="12"/>
+    <text x="760" y="40" font-family="Arial, sans-serif" font-size="32" fill="#60a5fa" text-anchor="middle" font-weight="bold">
+      「性能差」より「役割差」
+    </text>
+    <text x="760" y="80" font-family="Arial, sans-serif" font-size="32" fill="#fbbf24" text-anchor="middle" font-weight="bold">
+      1つに絞るより、組み合わせが最適解
+    </text>
+  </g>
+  
+  <!-- Workflow diagram hint -->
+  <text x="960" y="1000" font-family="Arial, sans-serif" font-size="26" fill="#94a3b8" text-anchor="middle" font-style="italic">
+    💡 仕事の工程に応じて、最適なAIを配置する
+  </text>
+</svg>

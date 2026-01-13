@@ -1,0 +1,87 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1920" height="1080" fill="#1b5e20"/>
+  
+  <!-- ヘッダー装飾 -->
+  <rect x="0" y="0" width="1920" height="200" fill="#2e7d32"/>
+  <circle cx="1700" cy="100" r="120" fill="#388e3c" opacity="0.3"/>
+  <circle cx="1600" cy="120" r="80" fill="#43a047" opacity="0.2"/>
+  
+  <!-- タイトル -->
+  <text x="100" y="110" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#ffffff">
+    DeepResearchでできること
+  </text>
+  <text x="100" y="160" font-family="Arial, sans-serif" font-size="32" fill="#a5d6a7">
+    メリットまとめ
+  </text>
+  
+  <!-- メリット1 -->
+  <rect x="80" y="230" width="850" height="180" rx="20" fill="#2e7d32"/>
+  <text x="120" y="280" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#81c784">
+    ① 膨大な情報を高速で要約・分析
+  </text>
+  <text x="140" y="330" font-family="Arial, sans-serif" font-size="26" fill="#c8e6c9">
+    • 10〜20記事分の内容を1回で整理
+  </text>
+  <text x="140" y="370" font-family="Arial, sans-serif" font-size="26" fill="#c8e6c9">
+    • 「時間のかかる調査」を完全自動化
+  </text>
+  
+  <!-- メリット2 -->
+  <rect x="990" y="230" width="850" height="180" rx="20" fill="#2e7d32"/>
+  <text x="1030" y="280" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#81c784">
+    ② 比較・評価・意思決定の支援
+  </text>
+  <text x="1050" y="330" font-family="Arial, sans-serif" font-size="26" fill="#c8e6c9">
+    • メリット・デメリット
+  </text>
+  <text x="1050" y="370" font-family="Arial, sans-serif" font-size="26" fill="#c8e6c9">
+    • 価格や特徴の比較、選択推奨まで提示
+  </text>
+  
+  <!-- メリット3 -->
+  <rect x="80" y="450" width="850" height="220" rx="20" fill="#2e7d32"/>
+  <text x="120" y="500" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#81c784">
+    ③ 資料作成の時短に最適
+  </text>
+  <text x="140" y="550" font-family="Arial, sans-serif" font-size="26" fill="#c8e6c9">
+    • スライド構成案
+  </text>
+  <text x="140" y="590" font-family="Arial, sans-serif" font-size="26" fill="#c8e6c9">
+    • レポートの骨子
+  </text>
+  <text x="140" y="630" font-family="Arial, sans-serif" font-size="26" fill="#c8e6c9">
+    • 結論・提案文まで自動生成
+  </text>
+  
+  <!-- メリット4 -->
+  <rect x="990" y="450" width="850" height="220" rx="20" fill="#2e7d32"/>
+  <text x="1030" y="500" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#81c784">
+    ④ 情報の透明性が高い
+  </text>
+  <text x="1050" y="550" font-family="Arial, sans-serif" font-size="26" fill="#c8e6c9">
+    • 参照URL付き
+  </text>
+  <text x="1050" y="590" font-family="Arial, sans-serif" font-size="26" fill="#c8e6c9">
+    • 調査過程の再現がしやすい
+  </text>
+  
+  <!-- 強調メッセージ -->
+  <rect x="200" y="750" width="1520" height="200" rx="25" fill="#388e3c" opacity="0.8"/>
+  <text x="960" y="830" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#ffffff" text-anchor="middle">
+    深い調査を数十秒で完了
+  </text>
+  <text x="960" y="900" font-family="Arial, sans-serif" font-size="36" fill="#a5d6a7" text-anchor="middle">
+    調査時間を90%削減し、意思決定を加速
+  </text>
+  
+  <!-- 装飾 -->
+  <circle cx="1750" cy="850" r="60" fill="#66bb6a" opacity="0.3"/>
+  <circle cx="150" cy="850" r="80" fill="#4caf50" opacity="0.2"/>
+  
+  <!-- フッター -->
+  <rect x="0" y="1030" width="1920" height="50" fill="#1b5e20"/>
+  <text x="850" y="1065" font-family="Arial, sans-serif" font-size="24" fill="#a5d6a7">
+    Slide 2 / 3
+  </text>
+</svg>

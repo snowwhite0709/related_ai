@@ -1,0 +1,89 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#0f172a"/>
+  
+  <!-- Gradient overlay -->
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#grad2)"/>
+  
+  <!-- Title -->
+  <text x="960" y="120" font-family="'Noto Sans JP', Arial, sans-serif" font-size="60" font-weight="bold" fill="#fff" text-anchor="middle">
+    Nano Bananaの主な活用例①
+  </text>
+  <text x="960" y="180" font-family="'Noto Sans JP', Arial, sans-serif" font-size="40" fill="#94a3b8" text-anchor="middle">
+    （画像編集・補正系）
+  </text>
+  
+  <text x="150" y="260" font-family="'Noto Sans JP', Arial, sans-serif" font-size="38" font-weight="bold" fill="#fbbf24">
+    画像を「きれいに・使いやすく」する活用
+  </text>
+  
+  <!-- Content boxes -->
+  <!-- Box 1 -->
+  <rect x="100" y="310" width="850" height="180" rx="15" fill="#1e293b" opacity="0.9"/>
+  <text x="130" y="355" font-family="'Noto Sans JP', Arial, sans-serif" font-size="36" font-weight="bold" fill="#60a5fa">
+    ① 不要物の削除
+  </text>
+  <text x="160" y="400" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" fill="#e2e8f0">
+    写り込んだ人物・車・電柱・電線などを自然に削除
+  </text>
+  <text x="160" y="440" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" fill="#cbd5e1">
+    「○○を消してください」と指示するだけ
+  </text>
+  
+  <!-- Box 2 -->
+  <rect x="970" y="310" width="850" height="180" rx="15" fill="#1e293b" opacity="0.9"/>
+  <text x="1000" y="355" font-family="'Noto Sans JP', Arial, sans-serif" font-size="36" font-weight="bold" fill="#60a5fa">
+    ② 背景の変更
+  </text>
+  <text x="1030" y="400" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" fill="#e2e8f0">
+    空を青空・夕焼けに変更
+  </text>
+  <text x="1030" y="440" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" fill="#cbd5e1">
+    背景だけを差し替えて雰囲気を一新
+  </text>
+  
+  <!-- Box 3 -->
+  <rect x="100" y="510" width="850" height="210" rx="15" fill="#1e293b" opacity="0.9"/>
+  <text x="130" y="555" font-family="'Noto Sans JP', Arial, sans-serif" font-size="36" font-weight="bold" fill="#60a5fa">
+    ③ アングル（視点）変更
+  </text>
+  <text x="160" y="600" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" fill="#e2e8f0">
+    同じ画像から別角度のイメージを生成
+  </text>
+  <text x="160" y="640" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" fill="#cbd5e1">
+    うまくいかない場合は再生成・新規チャットが有効
+  </text>
+  
+  <!-- Box 4 -->
+  <rect x="970" y="510" width="850" height="210" rx="15" fill="#1e293b" opacity="0.9"/>
+  <text x="1000" y="555" font-family="'Noto Sans JP', Arial, sans-serif" font-size="36" font-weight="bold" fill="#60a5fa">
+    ④ 古い写真・モノクロ写真の修復
+  </text>
+  <text x="1030" y="600" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" fill="#e2e8f0">
+    白黒写真のカラー化
+  </text>
+  <text x="1030" y="640" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" fill="#cbd5e1">
+    古い写真を「それっぽく」自然に復元
+  </text>
+  <text x="1030" y="680" font-family="'Noto Sans JP', Arial, sans-serif" font-size="24" fill="#64748b">
+    ※完全再現ではなくAI補完
+  </text>
+  
+  <!-- Bottom highlight -->
+  <rect x="100" y="760" width="1720" height="250" rx="20" fill="#7c3aed" opacity="0.15"/>
+  <text x="960" y="820" font-family="'Noto Sans JP', Arial, sans-serif" font-size="38" font-weight="bold" fill="#c084fc" text-anchor="middle">
+    💡 ポイント
+  </text>
+  <text x="960" y="880" font-family="'Noto Sans JP', Arial, sans-serif" font-size="30" fill="#e2e8f0" text-anchor="middle">
+    プロンプトは具体的に指定するほど精度が向上
+  </text>
+  <text x="960" y="930" font-family="'Noto Sans JP', Arial, sans-serif" font-size="30" fill="#cbd5e1" text-anchor="middle">
+    画像編集ソフト不要で、自然で高品質な仕上がりを実現
+  </text>
+</svg>

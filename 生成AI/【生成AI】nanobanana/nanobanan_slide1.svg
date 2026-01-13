@@ -1,0 +1,77 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#0f172a"/>
+  
+  <!-- Gradient overlay -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#grad1)"/>
+  
+  <!-- Title -->
+  <text x="960" y="140" font-family="'Noto Sans JP', Arial, sans-serif" font-size="72" font-weight="bold" fill="#fff" text-anchor="middle">
+    Nano Banana（ナノバナナ）とは？
+  </text>
+  
+  <!-- Main content box -->
+  <rect x="150" y="220" width="1620" height="780" rx="20" fill="#1e293b" opacity="0.9"/>
+  
+  <!-- Section: Nano Bananaの紹介 -->
+  <text x="200" y="300" font-family="'Noto Sans JP', Arial, sans-serif" font-size="42" font-weight="bold" fill="#fbbf24">
+    Nano Bananaの紹介
+  </text>
+  
+  <text x="200" y="365" font-family="'Noto Sans JP', Arial, sans-serif" font-size="32" fill="#e2e8f0">
+    Nano Bananaは、Googleの生成AI Gemini に搭載された
+  </text>
+  <text x="200" y="410" font-family="'Noto Sans JP', Arial, sans-serif" font-size="32" fill="#e2e8f0">
+    高精度な画像生成・画像編集AI機能
+  </text>
+  
+  <text x="200" y="475" font-family="'Noto Sans JP', Arial, sans-serif" font-size="30" fill="#94a3b8">
+    テキスト指示（プロンプト）＋画像入力で
+  </text>
+  
+  <!-- Bullet points -->
+  <text x="250" y="525" font-family="'Noto Sans JP', Arial, sans-serif" font-size="28" fill="#cbd5e1">
+    • 画像生成
+  </text>
+  <text x="250" y="565" font-family="'Noto Sans JP', Arial, sans-serif" font-size="28" fill="#cbd5e1">
+    • 画像編集
+  </text>
+  <text x="250" y="605" font-family="'Noto Sans JP', Arial, sans-serif" font-size="28" fill="#cbd5e1">
+    • 画像合成
+  </text>
+  
+  <text x="200" y="660" font-family="'Noto Sans JP', Arial, sans-serif" font-size="28" fill="#94a3b8">
+    が直感的に行える
+  </text>
+  
+  <text x="200" y="710" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" fill="#64748b">
+    Gemini / Google AI Studio から利用可能（Googleアカウントがあれば基本利用可能）
+  </text>
+  
+  <!-- Highlight box -->
+  <rect x="180" y="740" width="1560" height="60" rx="10" fill="#7c3aed" opacity="0.2"/>
+  <text x="960" y="778" font-family="'Noto Sans JP', Arial, sans-serif" font-size="30" font-weight="bold" fill="#c084fc" text-anchor="middle">
+    AI研究者から「画像編集ソフトが不要になるレベル」と評価される高品質
+  </text>
+  
+  <!-- Features section -->
+  <text x="200" y="850" font-family="'Noto Sans JP', Arial, sans-serif" font-size="36" font-weight="bold" fill="#fbbf24">
+    ▶ 特徴
+  </text>
+  
+  <text x="250" y="905" font-family="'Noto Sans JP', Arial, sans-serif" font-size="30" fill="#cbd5e1">
+    ✓ 自然な仕上がり
+  </text>
+  <text x="700" y="905" font-family="'Noto Sans JP', Arial, sans-serif" font-size="30" fill="#cbd5e1">
+    ✓ プロンプト次第で自由度が高い
+  </text>
+  <text x="250" y="955" font-family="'Noto Sans JP', Arial, sans-serif" font-size="30" fill="#cbd5e1">
+    ✓ 仕事・日常・教育・デザインに幅広く活用可能
+  </text>
+</svg>

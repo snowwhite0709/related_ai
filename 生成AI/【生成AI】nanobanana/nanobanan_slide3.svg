@@ -1,0 +1,148 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#0f172a"/>
+  
+  <!-- Gradient overlay -->
+  <defs>
+    <linearGradient id="grad3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.2" />
+    </linearGradient>
+  </defs>
+  <rect width="1920" height="1080" fill="url(#grad3)"/>
+  
+  <!-- Title -->
+  <text x="960" y="100" font-family="'Noto Sans JP', Arial, sans-serif" font-size="56" font-weight="bold" fill="#fff" text-anchor="middle">
+    Nano Bananaの主な活用例②
+  </text>
+  <text x="960" y="160" font-family="'Noto Sans JP', Arial, sans-serif" font-size="38" fill="#94a3b8" text-anchor="middle">
+    （生活・ビジネス活用）
+  </text>
+  
+  <text x="150" y="230" font-family="'Noto Sans JP', Arial, sans-serif" font-size="36" font-weight="bold" fill="#fbbf24">
+    日常・仕事で使える実践的活用
+  </text>
+  
+  <!-- Left Column -->
+  <!-- Box 5 -->
+  <rect x="80" y="270" width="560" height="135" rx="12" fill="#1e293b" opacity="0.9"/>
+  <text x="105" y="310" font-family="'Noto Sans JP', Arial, sans-serif" font-size="28" font-weight="bold" fill="#60a5fa">
+    ⑤ 複数画像の組み合わせ
+  </text>
+  <text x="120" y="350" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#e2e8f0">
+    参照画像のポーズ・表情を別キャラに適用
+  </text>
+  <text x="120" y="380" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#cbd5e1">
+    キャラクターデザイン・資料作成に便利
+  </text>
+  
+  <!-- Box 6 -->
+  <rect x="80" y="420" width="560" height="135" rx="12" fill="#1e293b" opacity="0.9"/>
+  <text x="105" y="460" font-family="'Noto Sans JP', Arial, sans-serif" font-size="28" font-weight="bold" fill="#60a5fa">
+    ⑥ 証明写真風の画像生成
+  </text>
+  <text x="120" y="500" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#e2e8f0">
+    自分の写真から自然な証明写真を生成
+  </text>
+  <text x="120" y="530" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#cbd5e1">
+    急ぎの場面で特に有効
+  </text>
+  
+  <!-- Box 7 -->
+  <rect x="80" y="570" width="560" height="135" rx="12" fill="#1e293b" opacity="0.9"/>
+  <text x="105" y="605" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" font-weight="bold" fill="#60a5fa">
+    ⑦ 部屋・インテリアのシミュレーション
+  </text>
+  <text x="120" y="645" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#e2e8f0">
+    部屋写真から家具配置や雰囲気を再現
+  </text>
+  <text x="120" y="675" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#cbd5e1">
+    引っ越し・模様替え・不動産提案に活用可能
+  </text>
+  
+  <!-- Middle Column -->
+  <!-- Box 8 -->
+  <rect x="660" y="270" width="560" height="135" rx="12" fill="#1e293b" opacity="0.9"/>
+  <text x="685" y="305" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" font-weight="bold" fill="#60a5fa">
+    ⑧ 髪型・髪色の変更シミュレーション
+  </text>
+  <text x="700" y="345" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#e2e8f0">
+    ボブ／ロング／カラー変更などを事前確認
+  </text>
+  <text x="700" y="375" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#cbd5e1">
+    テキスト指定が最も安定
+  </text>
+  
+  <!-- Box 9 -->
+  <rect x="660" y="420" width="560" height="135" rx="12" fill="#1e293b" opacity="0.9"/>
+  <text x="685" y="460" font-family="'Noto Sans JP', Arial, sans-serif" font-size="28" font-weight="bold" fill="#60a5fa">
+    ⑨ 服の試着イメージ
+  </text>
+  <text x="700" y="500" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#e2e8f0">
+    自分の写真＋服画像で着用イメージ生成
+  </text>
+  <text x="700" y="530" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#cbd5e1">
+    EC・アパレル・個人利用に強力
+  </text>
+  
+  <!-- Box 10 -->
+  <rect x="660" y="570" width="560" height="135" rx="12" fill="#1e293b" opacity="0.9"/>
+  <text x="685" y="610" font-family="'Noto Sans JP', Arial, sans-serif" font-size="28" font-weight="bold" fill="#60a5fa">
+    ⑩ 白黒線画化
+  </text>
+  <text x="700" y="650" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#e2e8f0">
+    写真を線画に変換
+  </text>
+  <text x="700" y="680" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#cbd5e1">
+    塗り絵・設計・教材用途にも応用可能
+  </text>
+  
+  <!-- Right Panel - Summary -->
+  <rect x="1240" y="270" width="600" height="435" rx="15" fill="#7c3aed" opacity="0.2"/>
+  <text x="1540" y="330" font-family="'Noto Sans JP', Arial, sans-serif" font-size="36" font-weight="bold" fill="#c084fc" text-anchor="middle">
+    🎯 活用のコツ
+  </text>
+  
+  <text x="1280" y="400" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" fill="#e2e8f0">
+    ✓ 具体的なプロンプト
+  </text>
+  <text x="1300" y="435" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#cbd5e1">
+    指示は詳細に
+  </text>
+  
+  <text x="1280" y="490" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" fill="#e2e8f0">
+    ✓ 複数回試す
+  </text>
+  <text x="1300" y="525" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#cbd5e1">
+    理想の結果まで再生成
+  </text>
+  
+  <text x="1280" y="580" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" fill="#e2e8f0">
+    ✓ 参照画像の質
+  </text>
+  <text x="1300" y="615" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#cbd5e1">
+    明瞭な画像で精度向上
+  </text>
+  
+  <text x="1280" y="670" font-family="'Noto Sans JP', Arial, sans-serif" font-size="26" fill="#e2e8f0">
+    ✓ 新規チャット活用
+  </text>
+  <text x="1300" y="705" font-family="'Noto Sans JP', Arial, sans-serif" font-size="22" fill="#cbd5e1">
+    うまくいかない時は仕切り直し
+  </text>
+  
+  <!-- Bottom Banner -->
+  <rect x="80" y="760" width="1760" height="260" rx="20" fill="#1e293b" opacity="0.95"/>
+  <text x="960" y="830" font-family="'Noto Sans JP', Arial, sans-serif" font-size="40" font-weight="bold" fill="#fbbf24" text-anchor="middle">
+    💡 Nano Bananaで広がる可能性
+  </text>
+  <text x="960" y="895" font-family="'Noto Sans JP', Arial, sans-serif" font-size="32" fill="#e2e8f0" text-anchor="middle">
+    ビジネス・日常・クリエイティブのあらゆる場面で
+  </text>
+  <text x="960" y="945" font-family="'Noto Sans JP', Arial, sans-serif" font-size="32" fill="#cbd5e1" text-anchor="middle">
+    画像編集の常識を変える強力なAIツール
+  </text>
+  <text x="960" y="995" font-family="'Noto Sans JP', Arial, sans-serif" font-size="28" fill="#94a3b8" text-anchor="middle">
+    Googleアカウントがあれば今すぐ使える！
+  </text>
+</svg>
