@@ -1,0 +1,102 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#0f172a"/>
+  
+  <!-- Gradient overlay -->
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.2" />
+    </linearGradient>
+    <linearGradient id="accentGrad2" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1920" height="1080" fill="url(#grad2)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="1700" cy="200" r="300" fill="#1e40af" opacity="0.1"/>
+  <circle cx="200" cy="900" r="250" fill="#7c3aed" opacity="0.1"/>
+  
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1920" height="8" fill="url(#accentGrad2)"/>
+  
+  <!-- Header -->
+  <text x="100" y="140" font-family="Noto Sans JP, sans-serif" font-size="64" font-weight="800" fill="#ffffff">
+    🧠 Genspark とは?
+  </text>
+  <text x="100" y="200" font-family="Noto Sans JP, sans-serif" font-size="38" font-weight="400" fill="#94a3b8">
+    Genspark の AI ワークスペースとは?
+  </text>
+  
+  <!-- Main content box -->
+  <rect x="100" y="260" width="1720" height="680" fill="#1e293b" rx="20" opacity="0.9"/>
+  <rect x="100" y="260" width="1720" height="680" fill="none" stroke="url(#accentGrad2)" stroke-width="3" rx="20"/>
+  
+  <!-- Description section -->
+  <text x="160" y="350" font-family="Noto Sans JP, sans-serif" font-size="32" font-weight="700" fill="#60a5fa">
+    概要
+  </text>
+  
+  <text x="160" y="410" font-family="Noto Sans JP, sans-serif" font-size="28" fill="#e2e8f0">
+    テキスト指示だけで資料・コード・アプリを生成できる
+  </text>
+  <text x="160" y="450" font-family="Noto Sans JP, sans-serif" font-size="28" fill="#e2e8f0">
+    AI ツールプラットフォーム
+  </text>
+  
+  <text x="160" y="510" font-family="Noto Sans JP, sans-serif" font-size="28" fill="#e2e8f0">
+    各種エージェントがバックグラウンド処理を自動化
+  </text>
+  
+  <text x="160" y="570" font-family="Noto Sans JP, sans-serif" font-size="28" fill="#e2e8f0">
+    プレゼン作成、Web/アプリ開発、リサーチまで
+  </text>
+  <text x="160" y="610" font-family="Noto Sans JP, sans-serif" font-size="28" fill="#e2e8f0">
+    ひとつのワークスペースで完結可能
+  </text>
+  
+  <!-- Features section -->
+  <rect x="160" y="660" width="1600" height="4" fill="#334155" rx="2"/>
+  
+  <text x="160" y="730" font-family="Noto Sans JP, sans-serif" font-size="32" font-weight="700" fill="#60a5fa">
+    主な特徴
+  </text>
+  
+  <!-- Feature cards -->
+  <g>
+    <!-- Card 1 -->
+    <rect x="160" y="770" width="500" height="130" fill="#0f172a" rx="12" stroke="#3b82f6" stroke-width="2"/>
+    <text x="190" y="820" font-family="Noto Sans JP, sans-serif" font-size="26" font-weight="600" fill="#ffffff">
+      ✓ テキストでプロンプト入力
+    </text>
+    <text x="210" y="860" font-family="Noto Sans JP, sans-serif" font-size="22" fill="#cbd5e1">
+      → 結果生成
+    </text>
+    
+    <!-- Card 2 -->
+    <rect x="710" y="770" width="500" height="130" fill="#0f172a" rx="12" stroke="#8b5cf6" stroke-width="2"/>
+    <text x="740" y="820" font-family="Noto Sans JP, sans-serif" font-size="26" font-weight="600" fill="#ffffff">
+      ✓ ライブプレビューで
+    </text>
+    <text x="760" y="860" font-family="Noto Sans JP, sans-serif" font-size="22" fill="#cbd5e1">
+      編集可能
+    </text>
+    
+    <!-- Card 3 -->
+    <rect x="1260" y="770" width="500" height="130" fill="#0f172a" rx="12" stroke="#3b82f6" stroke-width="2"/>
+    <text x="1290" y="820" font-family="Noto Sans JP, sans-serif" font-size="26" font-weight="600" fill="#ffffff">
+      ✓ コード生成 &amp;
+    </text>
+    <text x="1310" y="860" font-family="Noto Sans JP, sans-serif" font-size="22" fill="#cbd5e1">
+      ホスティング支援もあり
+    </text>
+  </g>
+  
+  <!-- Page number -->
+  <text x="1820" y="1040" font-family="Noto Sans JP, sans-serif" font-size="28" fill="#64748b" text-anchor="end">
+    2 / 4
+  </text>
+</svg>

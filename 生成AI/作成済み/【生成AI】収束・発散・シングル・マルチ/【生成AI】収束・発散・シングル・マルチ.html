@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI活用戦略：収束と発散</title>
+    <style>
+        :root {
+            --primary-blue: #2c3e50;
+            --accent-blue: #3498db;
+            --accent-orange: #e67e22;
+            --bg-color: #f4f7f6;
+            --text-color: #333;
+            --card-bg: #ffffff;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .slide {
+            background: var(--card-bg);
+            width: 100%;
+            max-width: 800px;
+            min-height: 500px;
+            margin-bottom: 50px;
+            padding: 40px;
+            border-radius: 12px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            position: relative;
+            overflow: hidden;
+            display: flex;
+            flex-direction: column;
+        }
+        .slide-number {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            font-weight: bold;
+            color: #ccc;
+            font-size: 1.2rem;
+        }
+        h1 {
+            color: var(--primary-blue);
+            border-left: 8px solid var(--accent-blue);
+            padding-left: 15px;
+            margin-bottom: 30px;
+            font-size: 1.8rem;
+        }
+        .divergent h1 {
+            border-left-color: var(--accent-orange);
+        }
+        h2 {
+            font-size: 1.4rem;
+            color: var(--accent-blue);
+            margin-top: 20px;
+        }
+        .divergent h2 {
+            color: var(--accent-orange);
+        }
+        .content {
+            flex-grow: 1;
+        }
+        ul {
+            list-style-type: none;
+            padding-left: 10px;
+        }
+        li {
+            margin-bottom: 12px;
+            position: relative;
+            padding-left: 25px;
+        }
+        li::before {
+            content: "▶";
+            position: absolute;
+            left: 0;
+            color: #ddd;
+            font-size: 0.8rem;
+            top: 5px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .tag {
+            display: inline-block;
+            background: #eee;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 0.9rem;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        pre {
+            background: #282c34;
+            color: #abb2bf;
+            padding: 15px;
+            border-radius: 8px;
+            font-size: 0.85rem;
+            overflow-x: auto;
+        }
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        .comparison-table th, .comparison-table td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        .comparison-table th {
+            background-color: #f8f9fa;
+        }
+        strong {
+            color: #d35400;
+        }
+        .footer-note {
+            margin-top: auto;
+            font-size: 0.9rem;
+            color: #666;
+            border-top: 1px solid #eee;
+            padding-top: 15px;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="slide">
+        <div class="slide-number">01</div>
+        <h1>収束フェーズ（Convergent Phase）</h1>
+        <div class="content">
+            <h2>定義</h2>
+            <p>AIの思考を<strong>「絞り込み」</strong>、決まったゴールに向かって正確に出力させるフェーズ</p>
+            
+            <div class="grid">
+                <div>
+                    <h2>特徴</h2>
+                    <ul>
+                        <li>指示は <strong>具体的・詳細・制約あり</strong></li>
+                        <li>形式・文字数・役割・条件を明確に指定</li>
+                        <li>出力の安定性・再現性を重視</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>主な活用シーン</h2>
+                    <ul>
+                        <li>議事録・要約・翻訳</li>
+                        <li>レポート整形</li>
+                        <li>マニュアル・手順書作成</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-note">
+            相性の良い使い方：<span class="tag">シングルターン</span>
+        </div>
+    </div>
+
+    <div class="slide divergent">
+        <div class="slide-number">02</div>
+        <h1>発散フェーズ（Divergent Phase）</h1>
+        <div class="content">
+            <h2>定義</h2>
+            <p>AIの思考を<strong>「広げ」</strong>、新しいアイデアや視点を引き出すフェーズ</p>
+            
+            <div class="grid">
+                <div>
+                    <h2>特徴</h2>
+                    <ul>
+                        <li>指示は <strong>あえて曖昧</strong></li>
+                        <li>制約を外す</li>
+                        <li>意外性・多様性を重視</li>
+                    </ul>
+                </div>
+                <div>
+                    <h2>主な活用シーン</h2>
+                    <ul>
+                        <li>企画アイデア出し</li>
+                        <li>ネーミング・キャッチコピー</li>
+                        <li>コンセプト設計</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-note">
+            相性の良い使い方：<span class="tag">マルチターン</span>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="slide-number">03</div>
+        <h1>マルチターン と シングルターン</h1>
+        <div class="content">
+            <table class="comparison-table">
+                <tr>
+                    <th>タイプ</th>
+                    <th>特徴</th>
+                    <th>向いている場面</th>
+                </tr>
+                <tr>
+                    <td><strong>マルチターン</strong><br>(会話型)</td>
+                    <td>AIと会話を往復。文脈を積み重ねて発想を拡張。※長くなるとブレに注意。</td>
+                    <td>発散フェーズ、アイデアの壁打ち、視点を広げたい時。</td>
+                </tr>
+                <tr>
+                    <td><strong>シングルターン</strong><br>(一括指示)</td>
+                    <td>1回の指示で完結。出力が安定し、AIの迷走を防げる。「構造」が重要。</td>
+                    <td>収束フェーズ、正確性が必要な業務、定型作業・自動化。</td>
+                </tr>
+            </table>
+            <p style="margin-top:20px;">⚠️ <strong>注意点：</strong>マルチターンで品質が落ちたら、新しいチャットに切り替えるのがコツです。</p>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="slide-number">04</div>
+        <h1>AIを迷わせない ― 構造化プロンプト</h1>
+        <div class="content">
+            <p>シングルターン × 収束フェーズを安定させる最大のコツは<strong>「指示を構造として渡すこと」</strong>です。</p>
+            
+            <div class="grid">
+                <div>
+                    <strong>Markdown例（推奨）</strong>
+<pre># 目的
+議事録を要約する
+# 入力
+- 文字起こしテキスト
+# 出力形式
+- 箇条書き5行
+- 決定事項を太字にする</pre>
+                    <small>👉 人に優しく、AIにも明確</small>
+                </div>
+                <div>
+                    <strong>YAML例（システム向）</strong>
+<pre>task: meeting_summary
+output:
+  format: bullet_list
+  items: 5
+constraints:
+  max_length: 300</pre>
+                    <small>👉 自動化・API連携に強い</small>
+                </div>
+            </div>
+
+            <div style="margin-top:15px;">
+                <strong>XML例（厳密な区切り）</strong>
+<pre>&lt;task&gt;&lt;type&gt;summary&lt;/type&gt;&lt;constraints&gt;&lt;maxLength&gt;300&lt;/maxLength&gt;&lt;/constraints&gt;&lt;/task&gt;</pre>
+                <small>👉 システム連携や大規模な指示の切り分けに有効</small>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

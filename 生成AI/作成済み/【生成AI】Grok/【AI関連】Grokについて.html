@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grok活用ガイド</title>
+    <style>
+        :root {
+            --bg-color: #000000;
+            --card-bg: #16181c;
+            --text-color: #e7e9ea;
+            --accent-color: #1d9bf0;
+            --secondary-text: #71767b;
+        }
+
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .slide {
+            background-color: var(--card-bg);
+            width: 100%;
+            max-width: 800px;
+            min-height: 500px;
+            margin-bottom: 40px;
+            padding: 40px;
+            border-radius: 20px;
+            box-shadow: 0 4px 20px rgba(255, 255, 255, 0.05);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            border: 1px solid #333;
+        }
+
+        .slide-number {
+            position: absolute;
+            top: 20px;
+            right: 30px;
+            color: var(--secondary-text);
+            font-weight: bold;
+        }
+
+        h1 {
+            color: var(--accent-color);
+            font-size: 2rem;
+            border-bottom: 2px solid var(--accent-color);
+            padding-bottom: 10px;
+            margin-top: 0;
+        }
+
+        h2 {
+            font-size: 1.5rem;
+            margin-top: 20px;
+            color: #fff;
+        }
+
+        ul {
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        li {
+            margin-bottom: 10px;
+        }
+
+        .comparison-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        .comparison-table th, .comparison-table td {
+            border: 1px solid #38444d;
+            padding: 12px;
+            text-align: left;
+        }
+
+        .comparison-table th {
+            background-color: #2f3336;
+        }
+
+        .highlight {
+            color: var(--accent-color);
+            font-weight: bold;
+        }
+
+        .point-box {
+            background-color: rgba(29, 155, 240, 0.1);
+            border-left: 5px solid var(--accent-color);
+            padding: 15px;
+            margin-top: 20px;
+        }
+
+        .footer-summary {
+            text-align: center;
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: var(--accent-color);
+            margin-top: 20px;
+            padding: 20px;
+            border: 2px dashed var(--accent-color);
+            border-radius: 10px;
+        }
+
+        .caution {
+            color: #ffad1f;
+            font-weight: bold;
+        }
+
+        @media print {
+            .slide {
+                page-break-after: always;
+                box-shadow: none;
+                border: 1px solid #000;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="slide">
+        <div class="slide-number">01</div>
+        <h1>Grokとは何か？</h1>
+        <p><strong>Grok（グロック）</strong>：X（旧Twitter）が開発した、SNS上の最新情報・投稿をリアルタイムで活用できる生成AI</p>
+        
+        <h2>主な特徴</h2>
+        <ul>
+            <li><span class="highlight">X上の投稿・トレンド</span>をもとに回答が生成される</li>
+            <li>「今、何が話題か」「最新の反応」といった情報の収集に強い</li>
+            <li>他人の<span class="highlight">プロンプト事例・具体的な使い方</span>の共有を探すのに最適</li>
+        </ul>
+
+        <h2>他の生成AIとの違い</h2>
+        <table class="comparison-table">
+            <tr>
+                <th>ツール名</th>
+                <th>得意分野・役割</th>
+            </tr>
+            <tr>
+                <td>ChatGPT / Gemini</td>
+                <td>汎用的な知識・情報の整理・長文の文章生成</td>
+            </tr>
+            <tr>
+                <td><strong>Grok</strong></td>
+                <td><span class="highlight">リアルタイム性・SNS上の生の実例収集</span></td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="slide">
+        <div class="slide-number">02</div>
+        <h1>Grokの基本的な使い方</h1>
+        
+        <h2>基本ステップ</h2>
+        <ol style="font-size: 1.1rem; line-height: 2;">
+            <li>X（旧Twitter）内の<strong>Grokメニュー</strong>を開く</li>
+            <li>チャット欄に<strong>「ラフな質問」</strong>をそのまま投げる</li>
+            <li>X上の最新投稿や事例をもとにした回答を取得する</li>
+        </ol>
+
+        <h2>動画内での使用例</h2>
+        <div style="background: #202327; padding: 15px; border-radius: 10px; margin-top: 10px;">
+            <code style="color: #1d9bf0;">「〇〇（AIツール名）のプロンプト事例を教えて」</code><br>
+            <code style="color: #1d9bf0;">「最近共有されているAI活用プロンプトを探して」</code>
+        </div>
+
+        <div class="point-box">
+            <strong>ここがポイント！</strong>
+            <ul>
+                <li>検索キーワードを細かく考える必要がない</li>
+                <li>AIが<strong>“検索 ＋ 要約”</strong>を自動で完結させてくれる</li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="slide">
+        <div class="slide-number">03</div>
+        <h1>効果的な活用ポイント</h1>
+        
+        <div style="display: flex; gap: 20px;">
+            <div style="flex: 1;">
+                <h2>おすすめの使いどころ</h2>
+                <ul style="font-size: 1rem;">
+                    <li>他人のプロンプト事例を集めたい時</li>
+                    <li>最新トレンド・流行を知りたい時</li>
+                    <li>自分のプロンプト改善のヒント探し</li>
+                </ul>
+            </div>
+            <div style="flex: 1;">
+                <h2><span class="caution">⚠️ 注意点</span></h2>
+                <ul style="font-size: 1rem;">
+                    <li>コピペだけではスキルが身につきにくい</li>
+                    <li><strong>「自分の目的に合わせてどう使うか」</strong>を考える工程が不可欠</li>
+                </ul>
+            </div>
+        </div>
+
+        <h2 style="text-align: center; margin-top: 30px;">理想的なワークフロー</h2>
+        <div style="text-align: center; font-size: 1.2rem; background: #2f3336; padding: 15px; border-radius: 10px;">
+            Grokで<strong>「素材」</strong>を集める ➔ ChatGPT/Geminiで<strong>「整理・仕上げ」</strong>
+        </div>
+
+        <div class="footer-summary">
+            Grokは「探すAI」、ChatGPTは「整えるAI」
+        </div>
+    </div>
+
+</body>
+</html>

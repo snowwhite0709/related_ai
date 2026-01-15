@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AIの使い分け戦略 - プレゼンテーション</title>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary: #2563eb;
+            --bg: #f8fafc;
+            --text: #1e293b;
+            --accent: #ef4444;
+            --chatgpt: #10a37f;
+            --claude: #d97757;
+            --gemini: #4285f4;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Noto Sans JP', sans-serif;
+            background-color: var(--bg);
+            color: var(--text);
+            overflow: hidden;
+        }
+
+        .slides-container {
+            width: 100vw;
+            height: 100vh;
+            display: flex;
+            transition: transform 0.5s ease-in-out;
+        }
+
+        section {
+            min-width: 100vw;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            box-sizing: border-box;
+            position: relative;
+        }
+
+        /* スライド装飾 */
+        h1 { font-size: 2.8rem; color: var(--primary); margin-bottom: 1rem; border-left: 10px solid var(--primary); padding-left: 20px; }
+        h2 { font-size: 2.2rem; margin-bottom: 1.5rem; }
+        p { font-size: 1.4rem; line-height: 1.6; }
+
+        .card {
+            background: white;
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+            width: 80%;
+            max-width: 1000px;
+        }
+
+        /* 比較表のデザイン */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+            font-size: 1.2rem;
+        }
+        th, td {
+            padding: 15px;
+            border-bottom: 1px solid #e2e8f0;
+            text-align: left;
+        }
+        th { background-color: #f1f5f9; color: var(--text); }
+
+        /* 特徴ラベル */
+        .label {
+            padding: 4px 12px;
+            border-radius: 20px;
+            color: white;
+            font-weight: bold;
+            font-size: 0.9rem;
+        }
+        .label-gpt { background: var(--chatgpt); }
+        .label-claude { background: var(--claude); }
+        .label-gemini { background: var(--gemini); }
+
+        /* 図解イメージのプレースホルダー */
+        .diagram {
+            margin-top: 30px;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            background: #f1f5f9;
+            padding: 20px;
+            border-radius: 10px;
+            border: 2px dashed #cbd5e1;
+            text-align: center;
+        }
+
+        /* 強調エリア */
+        .highlight-box {
+            background: #fff1f2;
+            border: 2px solid var(--accent);
+            padding: 20px;
+            border-radius: 10px;
+            margin-top: 20px;
+            text-align: center;
+            font-weight: bold;
+            font-size: 1.5rem;
+        }
+
+        /* ナビゲーション */
+        .nav {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            display: flex;
+            gap: 10px;
+            z-index: 100;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            background: var(--primary);
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            font-weight: bold;
+        }
+        button:disabled { background: #cbd5e1; }
+
+        .sub-msg { font-size: 1rem; color: #64748b; margin-top: 10px; }
+    </style>
+</head>
+<body>
+
+<div class="slides-container" id="container">
+    <section>
+        <div class="card">
+            <h1>AIを使いこなす人・使いこなせない人の差は“ここ”で決まる</h1>
+            <p><strong>AIのアップデート速度が異常に速い今、重要なのは…</strong></p>
+            <ul>
+                <li>問題は「どのAIが最強か」ではない</li>
+                <li><strong>用途に合ったAIを選べているかどうか</strong>が差になる</li>
+                <li>適材適所の「脳の使い分け」が生産性を決める</li>
+            </ul>
+            
+            <div class="diagram">
+                <div>【1つの仕事】</div>
+                <div>➡</div>
+                <div><span class="label label-gpt">ChatGPT</span><br>思考</div>
+                <div><span class="label label-claude">Claude</span><br>構造</div>
+                <div><span class="label label-gemini">Gemini</span><br>制作</div>
+            </div>
+            <p class="sub-msg">※ChatGPT / Gemini / Claude それぞれ得意分野が違う</p>
+        </div>
+    </section>
+
+    <section>
+        <div class="card">
+            <h2>主要3AIの役割比較（全体像）</h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th>AIモデル</th>
+                        <th>得意なこと</th>
+                        <th>特徴</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>ChatGPT 5.2</strong></td>
+                        <td>複雑な思考・分析</td>
+                        <td><span class="label label-gpt">AIエージェント型</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Claude Opus 4.5</strong></td>
+                        <td>整理・構造化</td>
+                        <td><span class="label label-claude">気が利く補佐役</span></td>
+                    </tr>
+                    <tr>
+                        <td><strong>Gemini 3.0</strong></td>
+                        <td>資料・Web制作</td>
+                        <td><span class="label label-gemini">スピードと完成度</span></td>
+                    </tr>
+                </tbody>
+            </table>
+            
+            <div class="highlight-box">
+                「性能差」より「役割差」を意識する。<br>
+                1つに絞るより、組み合わせが最適解。
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <div class="card">
+            <h2>実践比較①：資料・表・Web制作</h2>
+            <ul>
+                <li><strong>📊 スライド作成</strong><br>➡ Gemini：ビジュアルを含めた完成度が最も高い</li>
+                <li><strong>📈 スプレッドシート</strong><br>➡ Claude：分析的視点 / Gemini：正確な関数生成</li>
+                <li><strong>🌐 Webページ</strong><br>➡ Geminiが頭一つ抜ける（即時プレビューとデザイン）</li>
+            </ul>
+            
+            <div class="highlight-box" style="background: #f0fdf4; border-color: #22c55e;">
+                👉 アウトプット系は Gemini が強い
+            </div>
+
+            <div style="margin-top: 40px; text-align: center;">
+                <p style="font-size: 1.8rem;">
+                    <span style="color: var(--accent);">❌ どれが最強か探す</span><br>
+                    <span style="color: var(--primary);">✅ 何のために使うか決める</span>
+                </p>
+            </div>
+        </div>
+    </section>
+</div>
+
+<div class="nav">
+    <button id="prevBtn" onclick="moveSlide(-1)" disabled>前へ</button>
+    <button id="nextBtn" onclick="moveSlide(1)">次へ</button>
+</div>
+
+<script>
+    let currentSlide = 0;
+    const container = document.getElementById('container');
+    const totalSlides = 3;
+
+    function moveSlide(direction) {
+        currentSlide += direction;
+        if (currentSlide < 0) currentSlide = 0;
+        if (currentSlide >= totalSlides) currentSlide = totalSlides - 1;
+        
+        container.style.transform = `translateX(-${currentSlide * 100}vw)`;
+        
+        document.getElementById('prevBtn').disabled = currentSlide === 0;
+        document.getElementById('nextBtn').disabled = currentSlide === totalSlides - 1;
+    }
+
+    // キーボード操作
+    document.addEventListener('keydown', (e) => {
+        if (e.key === 'ArrowRight') moveSlide(1);
+        if (e.key === 'ArrowLeft') moveSlide(-1);
+    });
+</script>
+
+</body>
+</html>

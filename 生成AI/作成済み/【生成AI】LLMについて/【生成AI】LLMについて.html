@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI活用の極意 - プレゼン資料</title>
+    <style>
+        :root {
+            --primary-color: #2563eb;
+            --bg-color: #f8fafc;
+            --text-color: #1e293b;
+            --accent-color: #3b82f6;
+            --slide-bg: #ffffff;
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            background-color: var(--bg-color);
+            color: var(--text-color);
+            scroll-snap-type: y mandatory;
+            overflow-y: scroll;
+        }
+
+        .slide {
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 40px;
+            box-sizing: border-box;
+            scroll-snap-align: start;
+            position: relative;
+            border-bottom: 1px solid #e2e8f0;
+            background-color: var(--slide-bg);
+        }
+
+        .content {
+            max-width: 900px;
+            width: 100%;
+        }
+
+        .slide-number {
+            position: absolute;
+            top: 20px;
+            right: 40px;
+            font-size: 0.9rem;
+            color: #94a3b8;
+        }
+
+        h1 {
+            font-size: 2.5rem;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            border-left: 8px solid var(--primary-color);
+            padding-left: 20px;
+        }
+
+        h2 {
+            font-size: 1.8rem;
+            color: var(--accent-color);
+            margin-top: 2rem;
+        }
+
+        p, li {
+            font-size: 1.25rem;
+            line-height: 1.6;
+            margin-bottom: 1rem;
+        }
+
+        ul {
+            list-style-type: none;
+            padding-left: 0;
+        }
+
+        ul li::before {
+            content: "●";
+            color: var(--primary-color);
+            display: inline-block;
+            width: 1.5em;
+        }
+
+        .highlight-box {
+            background-color: #eff6ff;
+            border-radius: 12px;
+            padding: 20px;
+            margin-top: 20px;
+            border-left: 5px solid var(--primary-color);
+        }
+
+        .comparison {
+            display: flex;
+            gap: 20px;
+            margin-top: 20px;
+        }
+
+        .card {
+            flex: 1;
+            padding: 20px;
+            background: #f1f5f9;
+            border-radius: 8px;
+        }
+
+        .example-bad { color: #ef4444; font-weight: bold; }
+        .example-good { color: #10b981; font-weight: bold; }
+
+        .footer-note {
+            position: absolute;
+            bottom: 30px;
+            font-weight: bold;
+            color: var(--primary-color);
+        }
+    </style>
+</head>
+<body>
+
+    <section class="slide">
+        <div class="slide-number">Slide 1 / 3</div>
+        <div class="content">
+            <h1>AI出力の質とユーザーの実力の関係</h1>
+            <ul>
+                <li>AIの出力は<strong>「使う人の仕事の実力」</strong>に大きく左右される</li>
+                <li>例：新卒よりも、経験豊富な営業部長の方がAIで良質な資料を作れる</li>
+            </ul>
+            <div class="highlight-box">
+                <p><strong>ポイント： 「実力 ＝ 経験」だけではない</strong></p>
+                <p>AIの仕組みを理解し、適切に使うコツを知れば、誰でも出力の質を劇的に上げることが可能です。</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="slide">
+        <div class="slide-number">Slide 2 / 3</div>
+        <div class="content">
+            <h1>LLM（大規模言語モデル）の特性理解が鍵</h1>
+            <h2>LLMの本質： 「思いつきで話す、記憶力ゼロの天才」</h2>
+            <div class="comparison">
+                <div class="card">
+                    <strong>記憶力ゼロ</strong><br>
+                    過去の対話を「学習」しているわけではなく、毎回すべてを読み込んでから返答している。
+                </div>
+                <div class="card">
+                    <strong>思考キャパ（コンテキスト）</strong><br>
+                    一度に読める量には上限がある。情報が多すぎると混乱し、精度が低下する。
+                </div>
+            </div>
+            <div class="highlight-box">
+                <strong>出力の質を高める原則：</strong>
+                <ul>
+                    <li>複雑な指示を一度に丸投げしない</li>
+                    <li>「今、やるべきこと」を1つに絞って提示する</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section class="slide">
+        <div class="slide-number">Slide 3 / 3</div>
+        <div class="content">
+            <h1>誰でもAIの質を高められる2つのコツ</h1>
+            
+            <div class="card">
+                <strong>コツ1：まず「計画」だけさせる</strong>
+                <p style="font-size: 1rem;">いきなり成果物を求めず、作業手順を作らせる（例：調査の前に「調査手順」を提案させる）。<br>
+                ⇒ 思考負荷が下がり、途中で修正もできるため精度が上がる。</p>
+            </div>
+
+            <div class="card" style="margin-top: 20px;">
+                <strong>コツ2：ダメ出しより「やり直し」</strong>
+                <p style="font-size: 1rem;">チャットを重ねるとノイズが増える。不満な時は、元の指示（プロンプト）自体を改善して再投入する。</p>
+                <div style="font-size: 0.9rem; margin-top: 10px;">
+                    <span class="example-bad">×</span> 「丁寧なメール作って」<br>
+                    <span class="example-good">○</span> 「丁寧さと親しみやすさの両方を両立したトーンでメールを作って」
+                </div>
+            </div>
+        </div>
+        <div class="footer-note">AIを「道具」から「優秀なパートナー」へ</div>
+    </section>
+
+</body>
+</html>

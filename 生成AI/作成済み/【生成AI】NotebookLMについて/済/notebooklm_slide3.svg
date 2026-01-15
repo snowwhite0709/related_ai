@@ -1,0 +1,108 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- 明るいグラデーション背景 -->
+  <defs>
+    <linearGradient id="bg3" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FFF0F5;stop-opacity:1" />
+      <stop offset="50%" style="stop-color:#FFE4E9;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FFD6E0;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="accent3" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FF6B9D;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#C44569;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cta" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#FFA726;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FF7043;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1920" height="1080" fill="url(#bg3)"/>
+  
+  <!-- 装飾的な星 -->
+  <text x="1800" y="150" font-size="80" opacity="0.3">⭐</text>
+  <text x="120" y="200" font-size="60" opacity="0.3">✨</text>
+  <text x="1700" y="900" font-size="70" opacity="0.3">🌟</text>
+  
+  <!-- タイトルエリア -->
+  <rect x="100" y="80" width="1720" height="140" fill="url(#accent3)" rx="20"/>
+  <text x="960" y="165" font-family="Arial, sans-serif" font-size="68" font-weight="bold" fill="white" text-anchor="middle">
+    活用例とまとめ 🌟
+  </text>
+  
+  <!-- サブタイトル -->
+  <text x="960" y="260" font-family="Arial, sans-serif" font-size="42" fill="#C44569" text-anchor="middle" font-style="italic">
+    さあ、あなたの創造性を加速させよう
+  </text>
+  
+  <!-- 活用例セクション -->
+  <rect x="100" y="320" width="1720" height="280" fill="white" rx="15" opacity="0.95"/>
+  <text x="140" y="375" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#333">
+    💼 具体的な活用例
+  </text>
+  
+  <!-- 3列のユースケース -->
+  <g>
+    <!-- 論文執筆 -->
+    <rect x="140" y="420" width="480" height="150" fill="#FFF5F5" rx="12" stroke="#FF6B9D" stroke-width="3"/>
+    <text x="380" y="460" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#C44569" text-anchor="middle">
+      📚 論文執筆
+    </text>
+    <text x="380" y="500" font-family="Arial, sans-serif" font-size="22" fill="#666" text-anchor="middle">
+      先行研究の整理、
+    </text>
+    <text x="380" y="530" font-family="Arial, sans-serif" font-size="22" fill="#666" text-anchor="middle">
+      引用箇所の確認、論点整理
+    </text>
+  </g>
+  
+  <g>
+    <!-- 市場調査 -->
+    <rect x="720" y="420" width="480" height="150" fill="#F0F8FF" rx="12" stroke="#4A90E2" stroke-width="3"/>
+    <text x="960" y="460" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#4A90E2" text-anchor="middle">
+      📊 市場調査
+    </text>
+    <text x="960" y="500" font-family="Arial, sans-serif" font-size="22" fill="#666" text-anchor="middle">
+      業界レポートの分析、
+    </text>
+    <text x="960" y="530" font-family="Arial, sans-serif" font-size="22" fill="#666" text-anchor="middle">
+      競合比較、トレンド把握
+    </text>
+  </g>
+  
+  <g>
+    <!-- 企画書作成 -->
+    <rect x="1300" y="420" width="480" height="150" fill="#F5FFF5" rx="12" stroke="#52C41A" stroke-width="3"/>
+    <text x="1540" y="460" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#52C41A" text-anchor="middle">
+      📝 企画書作成
+    </text>
+    <text x="1540" y="500" font-family="Arial, sans-serif" font-size="22" fill="#666" text-anchor="middle">
+      情報整理、構成案の作成、
+    </text>
+    <text x="1540" y="530" font-family="Arial, sans-serif" font-size="22" fill="#666" text-anchor="middle">
+      アイデアのブラッシュアップ
+    </text>
+  </g>
+  
+  <!-- NotebookLMの強み -->
+  <rect x="100" y="640" width="1720" height="180" fill="white" rx="15" opacity="0.95"/>
+  <text x="140" y="700" font-family="Arial, sans-serif" font-size="40" font-weight="bold" fill="#333">
+    💪 NotebookLMの強み
+  </text>
+  <rect x="140" y="730" width="1640" height="70" fill="#FFFACD" rx="10" stroke="#FFA726" stroke-width="3"/>
+  <text x="960" y="775" font-family="Arial, sans-serif" font-size="32" fill="#555" text-anchor="middle">
+    ✅ アップロード資料に基づいた回答 → 情報源の信頼性が高い！
+  </text>
+  
+  <!-- CTAセクション -->
+  <rect x="300" y="870" width="1320" height="140" fill="url(#cta)" rx="20" style="filter: drop-shadow(0 8px 16px rgba(255,112,67,0.4))"/>
+  <text x="960" y="930" font-family="Arial, sans-serif" font-size="52" font-weight="bold" fill="white" text-anchor="middle">
+    🚀 いますぐ試してみましょう！
+  </text>
+  <text x="960" y="980" font-family="Arial, sans-serif" font-size="32" fill="white" text-anchor="middle" opacity="0.95">
+    あなたの学習・研究を次のレベルへ ✨
+  </text>
+  
+  <!-- 装飾的な矢印 -->
+  <text x="220" y="950" font-size="50">👉</text>
+  <text x="1650" y="950" font-size="50">👈</text>
+</svg>

@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genspark で作る Web アプリ入門</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        .slide { min-height: 100vh; display: flex; flex-direction: column; justify-content: center; padding: 4rem; border-bottom: 2px solid #eee; }
+        .point { border-left: 4px solid #3b82f6; padding-left: 1rem; margin-bottom: 1.5rem; }
+        body { background-color: #f9fafb; color: #1f2937; }
+    </style>
+</head>
+<body>
+
+    <section class="slide bg-gradient-to-br from-blue-600 to-indigo-700 text-white">
+        <h1 class="text-5xl font-bold mb-6">Genspark で作る Web アプリ入門</h1>
+        <p class="text-2xl mb-8 text-blue-100">AI 時代の新しいつくり方: 欲しいものをその場で実装する力</p>
+        <div class="bg-white/10 p-6 rounded-lg">
+            <h3 class="font-bold text-xl mb-2">プレゼンで伝えるポイント:</h3>
+            <ul class="list-disc list-inside text-lg opacity-90">
+                <li>Genspark の特徴</li>
+                <li>Web アプリ制作の流れ</li>
+                <li>実際の手順イメージ</li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="slide">
+        <h2 class="text-4xl font-bold mb-10 text-blue-600">Genspark の AI ワークスペースとは？</h2>
+        <div class="grid grid-cols-1 gap-6">
+            <div class="point">
+                <h3 class="text-2xl font-bold">次世代の AI プラットフォーム</h3>
+                <p class="text-gray-600">テキスト指示だけで資料・コード・アプリを生成できる統合環境</p>
+            </div>
+            <div class="point">
+                <h3 class="text-2xl font-bold">自動化エージェント</h3>
+                <p class="text-gray-600">各種エージェントがバックグラウンド処理を自動化し、リサーチから開発まで完結</p>
+            </div>
+            <div class="point">
+                <h3 class="text-2xl font-bold">主な特徴</h3>
+                <p class="text-gray-600">✔ テキストで結果生成 / ✔ ライブプレビュー編集 / ✔ ホスティング支援</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="slide bg-gray-50">
+        <h2 class="text-4xl font-bold mb-10 text-indigo-600">Web アプリ制作の基本ステップ</h2>
+        <div class="flex flex-col gap-4 text-lg">
+            <div class="flex items-start gap-4 p-4 bg-white shadow-sm rounded-lg">
+                <span class="bg-indigo-500 text-white px-3 py-1 rounded-full font-bold">1</span>
+                <div><strong>アイデアをテキスト入力:</strong> 目的・構成・機能をプロンプト化</div>
+            </div>
+            <div class="flex items-start gap-4 p-4 bg-white shadow-sm rounded-lg">
+                <span class="bg-indigo-500 text-white px-3 py-1 rounded-full font-bold">2</span>
+                <div><strong>Genspark によるコード生成:</strong> HTML/CSS/JS の基本構造を自動作成</div>
+            </div>
+            <div class="flex items-start gap-4 p-4 bg-white shadow-sm rounded-lg">
+                <span class="bg-indigo-500 text-white px-3 py-1 rounded-full font-bold">3</span>
+                <div><strong>プレビュー & 調整:</strong> UIの改善をAIにさらに指示してブラッシュアップ</div>
+            </div>
+            <div class="flex items-start gap-4 p-4 bg-white shadow-sm rounded-lg">
+                <span class="bg-indigo-500 text-white px-3 py-1 rounded-full font-bold">4</span>
+                <div><strong>デプロイ（公開）:</strong> ワークスペース内でホスティング設定</div>
+            </div>
+        </div>
+    </section>
+
+    <section class="slide text-center">
+        <h2 class="text-4xl font-bold mb-8">AI を味方にした Web アプリ制作の未来</h2>
+        <p class="text-xl text-gray-700 mb-10 max-w-2xl mx-auto">
+            「欲しいツールをすぐ形にする習慣」が、個人の生産性を飛躍的に向上させます。
+        </p>
+        <div class="bg-blue-50 p-8 rounded-2xl inline-block text-left">
+            <h3 class="font-bold text-xl mb-4 text-blue-800">Next Step:</h3>
+            <p class="mb-2">👉 実際に Genspark を触ってみる</p>
+            <p>👉 自分のアイデアを 1 つプロンプト化してみる</p>
+        </div>
+    </section>
+
+</body>
+</html>

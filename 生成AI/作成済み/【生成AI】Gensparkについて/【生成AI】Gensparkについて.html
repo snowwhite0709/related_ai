@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Genspark プレゼン資料</title>
+    <style>
+        :root {
+            --primary-color: #4A90E2;
+            --secondary-color: #34495E;
+            --bg-color: #F4F7F6;
+            --slide-bg: #FFFFFF;
+            --text-color: #333;
+        }
+        body {
+            font-family: 'Helvetica Neue', Arial, 'Hiragino Kaku Gothic ProN', 'Hiragino Sans', Meiryo, sans-serif;
+            background-color: var(--bg-color);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 40px;
+            margin: 0;
+        }
+        .slide {
+            width: 900px;
+            height: 540px;
+            background: var(--slide-bg);
+            margin-bottom: 50px;
+            padding: 40px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            border-radius: 12px;
+            position: relative;
+            box-sizing: border-box;
+            display: flex;
+            flex-direction: column;
+        }
+        .slide-number {
+            position: absolute;
+            bottom: 20px;
+            right: 30px;
+            font-size: 14px;
+            color: #999;
+        }
+        h2 {
+            color: var(--primary-color);
+            border-left: 8px solid var(--primary-color);
+            padding-left: 15px;
+            margin-top: 0;
+            font-size: 32px;
+        }
+        .main-copy {
+            font-size: 24px;
+            font-weight: bold;
+            color: var(--secondary-color);
+            margin-bottom: 25px;
+            background: #eef5ff;
+            padding: 15px;
+            border-radius: 8px;
+            text-align: center;
+        }
+        ul {
+            list-style: none;
+            padding: 0;
+        }
+        li {
+            margin-bottom: 12px;
+            font-size: 18px;
+            line-height: 1.6;
+            display: flex;
+            align-items: flex-start;
+        }
+        li::before {
+            content: "●";
+            color: var(--primary-color);
+            margin-right: 12px;
+            font-size: 14px;
+            margin-top: 4px;
+        }
+        .grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+        }
+        .card {
+            border: 1px solid #ddd;
+            padding: 15px;
+            border-radius: 8px;
+            background: #fafafa;
+        }
+        .card h3 {
+            margin-top: 0;
+            font-size: 18px;
+            color: var(--primary-color);
+        }
+        .highlight {
+            font-weight: bold;
+            color: #d35400;
+        }
+        footer {
+            margin-top: -30px;
+            font-size: 14px;
+            color: #777;
+        }
+    </style>
+</head>
+<body>
+
+<div class="slide">
+    <h2>Gensparkとは？</h2>
+    <div class="main-copy">
+        資料作成を “リサーチから完成” まで自動化するAI
+    </div>
+    <div class="grid">
+        <div>
+            <h3>🛠️ できること</h3>
+            <ul>
+                <li><strong>一気通貫ワークフロー：</strong>情報収集 → 要点整理 → 図解・画像生成 → スライド化</li>
+                <li><strong>マルチ入力：</strong>テキスト、URL、Excel (CSV) 等の多様なデータを読み取り</li>
+            </ul>
+        </div>
+        <div>
+            <h3>🚀 強みと出力</h3>
+            <ul>
+                <li><strong>効率化：</strong>ChatGPT/Claude等の使い分け不要。1回で完成に近い成果</li>
+                <li><strong>エクスポート：</strong>PDF、PowerPoint形式への書き出しに対応</li>
+            </ul>
+        </div>
+    </div>
+    <div class="slide-number">1 / 3</div>
+</div>
+
+<div class="slide">
+    <h2>代表的な使い方</h2>
+    <div style="margin-bottom: 20px; font-weight: bold; color: #555;">用途に応じて「素材を渡して資料化」できるのが最大の魅力</div>
+    <div class="grid">
+        <div class="card">
+            <h3>🔹 スライド自動生成</h3>
+            <p style="font-size: 14px;">「最新情報を調査して5枚のスライドを作って」などの指示で、画像付きの資料を自動作成。</p>
+        </div>
+        <div class="card">
+            <h3>📈 Excelデータ分析</h3>
+            <p style="font-size: 14px;">売上・予算表をアップして「資料にして」で、グラフ化と要約を一括実行。数字分析を時短。</p>
+        </div>
+        <div class="card">
+            <h3>🎥 YouTubeを資料化</h3>
+            <p style="font-size: 14px;">動画URLを貼るだけで、要約＋スライド化。社内共有や学習コンテンツ作成に最適。</p>
+        </div>
+        <div class="card">
+            <h3>📋 AIシート（表作成）</h3>
+            <p style="font-size: 14px;">Web情報を集めて一覧表を作成。CSV/Excel出力が可能（要内容検証）。</p>
+        </div>
+    </div>
+    <div class="slide-number">2 / 3</div>
+</div>
+
+<div class="slide">
+    <h2>実務で使うコツ</h2>
+    <div class="main-copy" style="font-size: 20px; background: #fff5e6;">
+        “自動 ＋ 人の最終チェック” で仕事で使える品質へ
+    </div>
+    <ul>
+        <li><strong>仕上げの編集：</strong>フォントや配置の微調整は、要素を選択して直感的に編集。</li>
+        <li><strong>ファクトチェック：</strong>誤情報（ハルシネーション）対策として、チェック機能の活用を推奨。</li>
+        <li><strong>精度重視の分業：</strong>正確性が必要な場合は <span class="highlight">ChatGPT (Deep Research) で調査</span> → 結果をGensparkでスライド化。</li>
+        <li><strong>おすすめ運用：</strong>Web検索は検証前提。社内データ等「正しい元データ」の投入が最も確実。</li>
+    </ul>
+    <div class="slide-number">3 / 3</div>
+</div>
+
+<footer>マウスホイールまたはスクロールで各スライドを確認してください</footer>
+
+</body>
+</html>

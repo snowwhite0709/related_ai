@@ -1,0 +1,50 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#0f172a"/>
+  
+  <!-- Header -->
+  <text x="960" y="120" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#3b82f6" text-anchor="middle">Gensparkとは?</text>
+  
+  <!-- Main definition box -->
+  <rect x="160" y="200" width="1600" height="140" rx="20" fill="#1e293b" stroke="#3b82f6" stroke-width="3"/>
+  <text x="960" y="250" font-family="Arial, sans-serif" font-size="42" font-weight="bold" fill="#ffffff" text-anchor="middle">資料作成を"リサーチから完成"まで自動化するAI</text>
+  <text x="960" y="310" font-family="Arial, sans-serif" font-size="32" fill="#94a3b8" text-anchor="middle">情報収集 → 要点整理 → 図解・画像生成 → スライド化まで一気通貫</text>
+  
+  <!-- Features grid -->
+  <!-- Feature 1 -->
+  <rect x="160" y="400" width="740" height="180" rx="15" fill="#1e3a5f"/>
+  <circle cx="240" cy="490" r="35" fill="#3b82f6"/>
+  <text x="240" y="502" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle">💪</text>
+  <text x="310" y="475" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#60a5fa">強み</text>
+  <text x="310" y="520" font-family="Arial, sans-serif" font-size="24" fill="#cbd5e1">ChatGPT/Claudeの使い分けを減らし</text>
+  <text x="310" y="555" font-family="Arial, sans-serif" font-size="24" fill="#cbd5e1">1回の依頼で完成に近い資料を出力</text>
+  
+  <!-- Feature 2 -->
+  <rect x="1020" y="400" width="740" height="180" rx="15" fill="#1e3a5f"/>
+  <circle cx="1100" cy="490" r="35" fill="#3b82f6"/>
+  <text x="1100" y="502" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle">📥</text>
+  <text x="1170" y="475" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#60a5fa">入力の幅</text>
+  <text x="1170" y="520" font-family="Arial, sans-serif" font-size="24" fill="#cbd5e1">テキスト / URL / Excel(CSV)など</text>
+  <text x="1170" y="555" font-family="Arial, sans-serif" font-size="24" fill="#cbd5e1">多様なデータを読み取って資料化</text>
+  
+  <!-- Feature 3 -->
+  <rect x="160" y="620" width="740" height="180" rx="15" fill="#1e3a5f"/>
+  <circle cx="240" cy="710" r="35" fill="#3b82f6"/>
+  <text x="240" y="722" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle">✅</text>
+  <text x="310" y="695" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#60a5fa">できること</text>
+  <text x="310" y="740" font-family="Arial, sans-serif" font-size="24" fill="#cbd5e1">情報収集→要点整理→図解生成</text>
+  <text x="310" y="775" font-family="Arial, sans-serif" font-size="24" fill="#cbd5e1">→スライド化まで全自動</text>
+  
+  <!-- Feature 4 -->
+  <rect x="1020" y="620" width="740" height="180" rx="15" fill="#1e3a5f"/>
+  <circle cx="1100" cy="710" r="35" fill="#3b82f6"/>
+  <text x="1100" y="722" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#ffffff" text-anchor="middle">📤</text>
+  <text x="1170" y="695" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#60a5fa">出力形式</text>
+  <text x="1170" y="740" font-family="Arial, sans-serif" font-size="24" fill="#cbd5e1">PDF / PowerPoint形式で</text>
+  <text x="1170" y="775" font-family="Arial, sans-serif" font-size="24" fill="#cbd5e1">エクスポート可能</text>
+  
+  <!-- Bottom accent -->
+  <rect x="0" y="1020" width="1920" height="60" fill="#1e3a5f"/>
+  <circle cx="960" cy="1050" r="20" fill="#3b82f6"/>
+  <text x="960" y="1000" font-family="Arial, sans-serif" font-size="28" fill="#64748b" text-anchor="middle">1 / 3</text>
+</svg>

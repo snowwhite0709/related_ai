@@ -1,0 +1,46 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+  
+  <!-- ヘッダー -->
+  <rect width="1920" height="120" fill="#16a085"/>
+  <text x="960" y="75" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" font-weight="bold">マルチターンとシングルターン</text>
+  
+  <!-- 左側: マルチターン -->
+  <rect x="60" y="160" width="880" height="850" fill="#ecf0f1" rx="10"/>
+  <text x="90" y="215" font-family="Arial, sans-serif" font-size="36" fill="#f39c12" font-weight="bold">マルチターン（Multi-turn）とは</text>
+  <text x="90" y="265" font-family="Arial, sans-serif" font-size="28" fill="#34495e">AIと 会話を往復しながら 進める使い方</text>
+  
+  <text x="90" y="330" font-family="Arial, sans-serif" font-size="28" fill="#16a085" font-weight="bold">特徴</text>
+  <text x="110" y="375" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 文脈を積み重ねて発想を拡張</text>
+  <text x="110" y="415" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 会話が長くなると ブレや迷走</text>
+  <text x="130" y="450" font-family="Arial, sans-serif" font-size="24" fill="#34495e">が起きやすい</text>
+  
+  <text x="90" y="510" font-family="Arial, sans-serif" font-size="28" fill="#16a085" font-weight="bold">向いている場面</text>
+  <text x="110" y="555" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 発散フェーズ</text>
+  <text x="110" y="590" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• アイデアの壁打ち</text>
+  <text x="110" y="625" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 視点を広げたいとき</text>
+  
+  <rect x="90" y="670" width="820" height="300" fill="#fff3cd" rx="8"/>
+  <text x="120" y="715" font-family="Arial, sans-serif" font-size="26" fill="#856404" font-weight="bold">⚠ 注意点</text>
+  <text x="120" y="765" font-family="Arial, sans-serif" font-size="24" fill="#856404">品質が落ちたら</text>
+  <text x="120" y="805" font-family="Arial, sans-serif" font-size="24" fill="#856404">新しいチャットに切り替える</text>
+  
+  <!-- 右側: シングルターン -->
+  <rect x="980" y="160" width="880" height="850" fill="#ecf0f1" rx="10"/>
+  <text x="1010" y="215" font-family="Arial, sans-serif" font-size="36" fill="#27ae60" font-weight="bold">シングルターン（Single-turn）とは</text>
+  <text x="1010" y="265" font-family="Arial, sans-serif" font-size="28" fill="#34495e">1回の指示で完結させる使い方</text>
+  
+  <text x="1010" y="330" font-family="Arial, sans-serif" font-size="28" fill="#16a085" font-weight="bold">特徴</text>
+  <text x="1030" y="375" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 出力が安定しやすい</text>
+  <text x="1030" y="415" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 指示の「構造」が重要</text>
+  <text x="1030" y="455" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• AIの迷走を防げる</text>
+  
+  <text x="1010" y="520" font-family="Arial, sans-serif" font-size="28" fill="#16a085" font-weight="bold">向いている場面</text>
+  <text x="1030" y="565" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 収束フェーズ</text>
+  <text x="1030" y="605" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 正確性・一貫性が必要な業務</text>
+  <text x="1030" y="645" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 定型作業・自動化</text>
+  
+  <!-- ページ番号 -->
+  <text x="1820" y="1050" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d" text-anchor="end">3 / 4</text>
+</svg>

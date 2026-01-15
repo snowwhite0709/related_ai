@@ -1,0 +1,76 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+  
+  <!-- ヘッダー -->
+  <rect width="1920" height="120" fill="#c0392b"/>
+  <text x="960" y="75" font-family="Arial, sans-serif" font-size="44" fill="white" text-anchor="middle" font-weight="bold">構造化プロンプト（Markdown / YAML / XML）</text>
+  
+  <!-- サブタイトル -->
+  <text x="100" y="200" font-family="Arial, sans-serif" font-size="36" fill="#c0392b" font-weight="bold">AIを迷わせない ― 構造化プロンプトの実例</text>
+  
+  <!-- ポイント -->
+  <rect x="100" y="220" width="1720" height="70" fill="#e74c3c" rx="8"/>
+  <text x="960" y="265" font-family="Arial, sans-serif" font-size="26" fill="white" text-anchor="middle">シングルターン × 収束フェーズを安定させる最大のコツは「指示を構造として渡すこと」</text>
+  
+  <!-- Markdown例 -->
+  <rect x="60" y="320" width="580" height="680" fill="#2c3e50" rx="10"/>
+  <text x="90" y="360" font-family="Arial, sans-serif" font-size="28" fill="#3498db" font-weight="bold">Markdown例</text>
+  <text x="90" y="395" font-family="Arial, sans-serif" font-size="20" fill="#95a5a6">（人が書きやすい）</text>
+  
+  <text x="90" y="440" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1"># 目的</text>
+  <text x="90" y="470" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1">議事録を要約する</text>
+  <text x="90" y="510" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1"># 入力</text>
+  <text x="90" y="540" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1">- 会議の文字起こしテキスト</text>
+  <text x="90" y="580" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1"># 出力形式</text>
+  <text x="90" y="610" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1">- 箇条書き5行</text>
+  <text x="90" y="640" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1">- 決定事項を太字にする</text>
+  <text x="90" y="680" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1"># 条件</text>
+  <text x="90" y="710" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1">- 300文字以内</text>
+  
+  <text x="90" y="770" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">👉 人間にとって分かりやすく、</text>
+  <text x="105" y="795" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">AIにも役割が伝わる</text>
+  
+  <!-- YAML例 -->
+  <rect x="670" y="320" width="580" height="680" fill="#34495e" rx="10"/>
+  <text x="700" y="360" font-family="Arial, sans-serif" font-size="28" fill="#f39c12" font-weight="bold">YAML例</text>
+  <text x="700" y="395" font-family="Arial, sans-serif" font-size="20" fill="#95a5a6">（ルールを厳密に伝える）</text>
+  
+  <text x="700" y="440" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">task: meeting_summary</text>
+  <text x="700" y="470" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">input: transcript_text</text>
+  <text x="700" y="500" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">output:</text>
+  <text x="720" y="530" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">format: bullet_list</text>
+  <text x="720" y="560" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">items: 5</text>
+  <text x="720" y="590" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">highlight: decisions</text>
+  <text x="700" y="620" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">constraints:</text>
+  <text x="720" y="650" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">max_length: 300</text>
+  <text x="720" y="680" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">language: ja</text>
+  
+  <text x="700" y="740" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">👉 自動化・API連携向き</text>
+  <text x="700" y="775" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">👉 AIが「仕様書」として</text>
+  <text x="715" y="800" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">解釈できる</text>
+  
+  <!-- XML例 -->
+  <rect x="1280" y="320" width="580" height="680" fill="#2c3e50" rx="10"/>
+  <text x="1310" y="360" font-family="Arial, sans-serif" font-size="28" fill="#e67e22" font-weight="bold">XML例</text>
+  <text x="1310" y="395" font-family="Arial, sans-serif" font-size="20" fill="#95a5a6">（システム連携向き）</text>
+  
+  <text x="1310" y="440" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;task&gt;</text>
+  <text x="1330" y="468" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;type&gt;meeting_summary&lt;/type&gt;</text>
+  <text x="1330" y="496" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;input&gt;transcript_text&lt;/input&gt;</text>
+  <text x="1330" y="524" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;output&gt;</text>
+  <text x="1350" y="552" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;format&gt;bullet&lt;/format&gt;</text>
+  <text x="1350" y="580" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;items&gt;5&lt;/items&gt;</text>
+  <text x="1330" y="608" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;/output&gt;</text>
+  <text x="1330" y="636" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;constraints&gt;</text>
+  <text x="1350" y="664" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;maxLength&gt;300&lt;/maxLength&gt;</text>
+  <text x="1350" y="692" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;language&gt;ja&lt;/language&gt;</text>
+  <text x="1330" y="720" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;/constraints&gt;</text>
+  <text x="1310" y="748" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;/task&gt;</text>
+  
+  <text x="1310" y="805" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">👉 業務システム・アプリ連携</text>
+  <text x="1325" y="830" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">で強い</text>
+  
+  <!-- ページ番号 -->
+  <text x="1820" y="1050" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d" text-anchor="end">4 / 4</text>
+</svg>

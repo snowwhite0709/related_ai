@@ -1,0 +1,72 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#0f172a"/>
+  
+  <!-- Gradient overlay -->
+  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#1e3a8a;stop-opacity:0.3" />
+      <stop offset="100%" style="stop-color:#7c3aed;stop-opacity:0.2" />
+    </linearGradient>
+    <linearGradient id="accentGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#3b82f6;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#8b5cf6;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="1920" height="1080" fill="url(#grad1)"/>
+  
+  <!-- Decorative elements -->
+  <circle cx="1700" cy="200" r="300" fill="#1e40af" opacity="0.1"/>
+  <circle cx="200" cy="900" r="250" fill="#7c3aed" opacity="0.1"/>
+  
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="1920" height="8" fill="url(#accentGrad)"/>
+  
+  <!-- Main title -->
+  <text x="960" y="380" font-family="'Noto Sans JP', sans-serif" font-size="92" font-weight="800" fill="#ffffff" text-anchor="middle">
+    Genspark で作る
+  </text>
+  <text x="960" y="480" font-family="'Noto Sans JP', sans-serif" font-size="92" font-weight="800" fill="#ffffff" text-anchor="middle">
+    Web アプリ入門
+  </text>
+  
+  <!-- Accent line under title -->
+  <rect x="660" y="520" width="600" height="6" fill="url(#accentGrad)" rx="3"/>
+  
+  <!-- Subtitle -->
+  <text x="960" y="620" font-family="'Noto Sans JP', sans-serif" font-size="40" font-weight="400" fill="#94a3b8" text-anchor="middle">
+    AI 時代の新しいつくり方
+  </text>
+  <text x="960" y="680" font-family="'Noto Sans JP', sans-serif" font-size="36" font-weight="300" fill="#cbd5e1" text-anchor="middle">
+    欲しいものをその場で実装する力
+  </text>
+  
+  <!-- Key points box -->
+  <rect x="460" y="760" width="1000" height="240" fill="#1e293b" rx="16" opacity="0.8"/>
+  <rect x="460" y="760" width="1000" height="240" fill="none" stroke="url(#accentGrad)" stroke-width="2" rx="16"/>
+  
+  <!-- Emoji icon -->
+  <text x="510" y="825" font-size="48">🎯</text>
+  
+  <!-- Points title -->
+  <text x="580" y="825" font-family="'Noto Sans JP', sans-serif" font-size="28" font-weight="700" fill="#ffffff">
+    プレゼンで伝えるポイント
+  </text>
+  
+  <!-- Bullet points -->
+  <text x="520" y="880" font-family="'Noto Sans JP', sans-serif" font-size="26" fill="#e2e8f0">
+    ✓ Genspark の特徴
+  </text>
+  <text x="520" y="925" font-family="'Noto Sans JP', sans-serif" font-size="26" fill="#e2e8f0">
+    ✓ Web アプリ制作の流れ
+  </text>
+  <text x="520" y="970" font-family="'Noto Sans JP', sans-serif" font-size="26" fill="#e2e8f0">
+    ✓ 実際の手順イメージ
+  </text>
+  
+  <!-- Page number -->
+  <text x="1820" y="1040" font-family="'Noto Sans JP', sans-serif" font-size="28" fill="#64748b" text-anchor="end">
+    1 / 4
+  </text>
+</svg>

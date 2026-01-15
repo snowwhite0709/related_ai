@@ -1,0 +1,39 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+  
+  <!-- ヘッダー -->
+  <rect width="1920" height="120" fill="#8e44ad"/>
+  <text x="960" y="75" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" font-weight="bold">発散フェーズ（Divergent Phase）</text>
+  
+  <!-- メインタイトル -->
+  <text x="100" y="220" font-family="Arial, sans-serif" font-size="42" fill="#8e44ad" font-weight="bold">発散フェーズとは？</text>
+  
+  <!-- 定義セクション -->
+  <rect x="100" y="260" width="1720" height="140" fill="#e74c3c" rx="10"/>
+  <text x="130" y="305" font-family="Arial, sans-serif" font-size="32" fill="white" font-weight="bold">定義</text>
+  <text x="130" y="355" font-family="Arial, sans-serif" font-size="36" fill="white">AIの思考を「広げ」、</text>
+  <text x="130" y="395" font-family="Arial, sans-serif" font-size="36" fill="white">新しいアイデアや視点を引き出すフェーズ</text>
+  
+  <!-- 特徴セクション -->
+  <rect x="100" y="430" width="840" height="280" fill="#ecf0f1" rx="10"/>
+  <text x="130" y="475" font-family="Arial, sans-serif" font-size="32" fill="#8e44ad" font-weight="bold">特徴</text>
+  <text x="150" y="525" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• 指示は あえて曖昧</text>
+  <text x="150" y="570" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• 制約を外す</text>
+  <text x="150" y="615" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• 意外性・多様性を重視</text>
+  
+  <!-- 活用シーンセクション -->
+  <rect x="980" y="430" width="840" height="280" fill="#ecf0f1" rx="10"/>
+  <text x="1010" y="475" font-family="Arial, sans-serif" font-size="32" fill="#8e44ad" font-weight="bold">主な活用シーン</text>
+  <text x="1030" y="525" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• 企画アイデア出し</text>
+  <text x="1030" y="570" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• ネーミング・キャッチコピー</text>
+  <text x="1030" y="615" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• コンセプト設計</text>
+  
+  <!-- 相性 -->
+  <rect x="100" y="740" width="1720" height="100" fill="#f39c12" rx="10"/>
+  <text x="130" y="785" font-family="Arial, sans-serif" font-size="32" fill="white" font-weight="bold">相性の良い使い方</text>
+  <text x="500" y="820" font-family="Arial, sans-serif" font-size="38" fill="white" font-weight="bold">マルチターン</text>
+  
+  <!-- ページ番号 -->
+  <text x="1820" y="1050" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d" text-anchor="end">2 / 4</text>
+</svg>

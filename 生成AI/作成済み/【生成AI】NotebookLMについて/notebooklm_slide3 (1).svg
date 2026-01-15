@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#f8f9fa"/>
+  
+  <!-- Header Background -->
+  <rect width="1920" height="200" fill="#ea4335"/>
+  
+  <!-- Title -->
+  <text x="960" y="100" font-family="Arial, sans-serif" font-size="56" font-weight="bold" fill="white" text-anchor="middle">
+    仕事がどう変わるか?
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="960" y="160" font-family="Arial, sans-serif" font-size="38" fill="white" text-anchor="middle">
+    NotebookLMが生産性を爆上げする理由
+  </text>
+  
+  <!-- Main Content Area -->
+  <g transform="translate(120, 250)">
+    <!-- Benefit 1 -->
+    <rect x="0" y="0" width="1680" height="180" fill="#e6f4ea" rx="15"/>
+    <text x="30" y="50" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#137333">
+      🟢 ① 会議・打ち合わせが変わる
+    </text>
+    <text x="60" y="95" font-family="Arial, sans-serif" font-size="26" fill="#202124">
+      Zoomの録音＋文字起こしを入れる → AIが議事録を作る
+    </text>
+    <text x="60" y="130" font-family="Arial, sans-serif" font-size="26" fill="#202124">
+      会議に出ていない人もNotebookLMに質問すれば内容が分かる
+    </text>
+    <text x="60" y="165" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#137333">
+      → 「聞き直し」「議事録作成」が不要
+    </text>
+    
+    <!-- Benefit 2 -->
+    <rect x="0" y="210" width="1680" height="170" fill="#e8f0fe" rx="15"/>
+    <text x="30" y="260" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#1967d2">
+      🟢 ② 学習・情報収集が10倍速に
+    </text>
+    <text x="60" y="305" font-family="Arial, sans-serif" font-size="26" fill="#202124">
+      YouTube・講演・PDFを入れる → 要約・音声解説・質問ができる
+    </text>
+    <text x="60" y="350" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#1967d2">
+      → 2時間の動画を10分で理解できる
+    </text>
+    
+    <!-- Benefit 3 -->
+    <rect x="0" y="410" width="1680" height="200" fill="#fef7e0" rx="15"/>
+    <text x="30" y="460" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ea8600">
+      🟢 ③ 企画・資料・打ち合わせ準備が激変
+    </text>
+    <text x="60" y="505" font-family="Arial, sans-serif" font-size="26" fill="#202124">
+      市場データ・過去資料を入れる → AIが「議論すべきポイント」
+    </text>
+    <text x="60" y="540" font-family="Arial, sans-serif" font-size="26" fill="#202124">
+      「上司が突っ込みそうな点」を事前にシミュレーション
+    </text>
+    <text x="60" y="585" font-family="Arial, sans-serif" font-size="28" font-weight="bold" fill="#ea8600">
+      → 「考える時間」が激減し、勝てる資料が作れる
+    </text>
+    
+    <!-- Key Message Box -->
+    <rect x="0" y="640" width="1680" height="150" fill="#ea4335" rx="15"/>
+    <text x="840" y="695" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="white" text-anchor="middle">
+      🎯 全体のメッセージ
+    </text>
+    <text x="840" y="745" font-family="Arial, sans-serif" font-size="30" fill="white" text-anchor="middle">
+      NotebookLMは「自分の資料を理解するAI」だから、
+    </text>
+    <text x="840" y="785" font-family="Arial, sans-serif" font-size="30" font-weight="bold" fill="white" text-anchor="middle">
+      仕事の"探す・まとめる・考える"を丸ごとAIに任せられる
+    </text>
+  </g>
+  
+  <!-- Footer -->
+  <text x="960" y="1050" font-family="Arial, sans-serif" font-size="24" fill="#5f6368" text-anchor="middle">
+    3 / 3
+  </text>
+</svg>

@@ -1,0 +1,56 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background -->
+  <rect width="1920" height="1080" fill="#0f172a"/>
+  
+  <!-- Header -->
+  <text x="960" y="100" font-family="Arial, sans-serif" font-size="64" font-weight="bold" fill="#3b82f6" text-anchor="middle">実務で使うコツ</text>
+  <text x="960" y="160" font-family="Arial, sans-serif" font-size="32" fill="#94a3b8" text-anchor="middle">"自動 + 人の最終チェック"で、仕事で使える品質に</text>
+  
+  <!-- Left column -->
+  <!-- Tip 1: Editing -->
+  <rect x="100" y="220" width="850" height="240" rx="15" fill="#1e3a5f"/>
+  <rect x="100" y="220" width="850" height="70" rx="15" fill="#3b82f6"/>
+  <text x="525" y="268" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ffffff" text-anchor="middle">✏️ 仕上げの編集</text>
+  
+  <text x="140" y="340" font-family="Arial, sans-serif" font-size="26" fill="#cbd5e1">フォントや配置などの微調整は</text>
+  <text x="140" y="380" font-family="Arial, sans-serif" font-size="26" fill="#cbd5e1">要素選択 → 編集で対応</text>
+  <text x="140" y="430" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#60a5fa">→ 最後のひと手間で完成度UP</text>
+  
+  <!-- Tip 2: Fact check -->
+  <rect x="100" y="490" width="850" height="240" rx="15" fill="#1e3a5f"/>
+  <rect x="100" y="490" width="850" height="70" rx="15" fill="#ef4444"/>
+  <text x="525" y="538" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ffffff" text-anchor="middle">🔍 ファクトチェック</text>
+  
+  <text x="140" y="610" font-family="Arial, sans-serif" font-size="26" fill="#cbd5e1">生成内容に誤りが混ざる可能性</text>
+  <text x="140" y="650" font-family="Arial, sans-serif" font-size="26" fill="#cbd5e1">チェック機能や再確認を活用</text>
+  <text x="140" y="700" font-family="Arial, sans-serif" font-size="24" font-weight="bold" fill="#f87171">⚠️ 必ず事実確認を!</text>
+  
+  <!-- Right column -->
+  <!-- Tip 3: Division of work -->
+  <rect x="970" y="220" width="850" height="240" rx="15" fill="#1e3a5f"/>
+  <rect x="970" y="220" width="850" height="70" rx="15" fill="#10b981"/>
+  <text x="1395" y="268" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ffffff" text-anchor="middle">🔀 精度重視の分業</text>
+  
+  <text x="1010" y="340" font-family="Arial, sans-serif" font-size="24" fill="#cbd5e1">最新性や正確性が重要なら:</text>
+  <text x="1010" y="380" font-family="Arial, sans-serif" font-size="24" fill="#34d399">① ChatGPT Deep Researchで調査</text>
+  <text x="1010" y="420" font-family="Arial, sans-serif" font-size="24" fill="#34d399">② 結果をGensparkに貼ってスライド化</text>
+  
+  <!-- Tip 4: Recommended operation -->
+  <rect x="970" y="490" width="850" height="240" rx="15" fill="#1e3a5f"/>
+  <rect x="970" y="490" width="850" height="70" rx="15" fill="#8b5cf6"/>
+  <text x="1395" y="538" font-family="Arial, sans-serif" font-size="36" font-weight="bold" fill="#ffffff" text-anchor="middle">💡 おすすめ運用</text>
+  
+  <text x="1010" y="610" font-family="Arial, sans-serif" font-size="24" fill="#fbbf24">⚠️ Web検索ベース = 検証前提</text>
+  <text x="1010" y="650" font-family="Arial, sans-serif" font-size="24" fill="#cbd5e1">社内データなど手元の正しい</text>
+  <text x="1010" y="690" font-family="Arial, sans-serif" font-size="24" fill="#a78bfa">データ投入が最も堅い ✓</text>
+  
+  <!-- Summary box -->
+  <rect x="100" y="760" width="1720" height="160" rx="20" fill="#1e293b" stroke="#fbbf24" stroke-width="3"/>
+  <text x="960" y="820" font-family="Arial, sans-serif" font-size="32" font-weight="bold" fill="#fbbf24" text-anchor="middle">🎯 まとめ: 自動化で時短 × 人の目でクオリティ確保</text>
+  <text x="960" y="870" font-family="Arial, sans-serif" font-size="28" fill="#cbd5e1" text-anchor="middle">Gensparkで素早く資料を作成 → 内容を検証・調整 → 実務レベルの完成度へ</text>
+  
+  <!-- Bottom accent -->
+  <rect x="0" y="1020" width="1920" height="60" fill="#1e3a5f"/>
+  <circle cx="960" cy="1050" r="20" fill="#3b82f6"/>
+  <text x="960" y="1000" font-family="Arial, sans-serif" font-size="28" fill="#64748b" text-anchor="middle">3 / 3</text>
+</svg>

@@ -1,0 +1,210 @@
+<svg viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <!-- スライド1: 収束フェーズ -->
+  <g id="slide1">
+    <!-- 背景 -->
+    <rect width="1920" height="1080" fill="#f8f9fa"/>
+    
+    <!-- ヘッダー -->
+    <rect width="1920" height="120" fill="#2c3e50"/>
+    <text x="960" y="75" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" font-weight="bold">収束フェーズ（Convergent Phase）</text>
+    
+    <!-- メインタイトル -->
+    <text x="100" y="220" font-family="Arial, sans-serif" font-size="42" fill="#2c3e50" font-weight="bold">収束フェーズとは？</text>
+    
+    <!-- 定義セクション -->
+    <rect x="100" y="260" width="1720" height="140" fill="#3498db" rx="10"/>
+    <text x="130" y="305" font-family="Arial, sans-serif" font-size="32" fill="white" font-weight="bold">定義</text>
+    <text x="130" y="355" font-family="Arial, sans-serif" font-size="36" fill="white">AIの思考を「絞り込み」、</text>
+    <text x="130" y="395" font-family="Arial, sans-serif" font-size="36" fill="white">決まったゴールに向かって正確に出力させるフェーズ</text>
+    
+    <!-- 特徴セクション -->
+    <rect x="100" y="430" width="840" height="280" fill="#ecf0f1" rx="10"/>
+    <text x="130" y="475" font-family="Arial, sans-serif" font-size="32" fill="#2c3e50" font-weight="bold">特徴</text>
+    <text x="150" y="525" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• 指示は 具体的・詳細・制約あり</text>
+    <text x="150" y="570" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• 形式・文字数・役割・条件を</text>
+    <text x="170" y="610" font-family="Arial, sans-serif" font-size="26" fill="#34495e">明確に指定</text>
+    <text x="150" y="655" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• 出力の安定性・再現性を重視</text>
+    
+    <!-- 活用シーンセクション -->
+    <rect x="980" y="430" width="840" height="280" fill="#ecf0f1" rx="10"/>
+    <text x="1010" y="475" font-family="Arial, sans-serif" font-size="32" fill="#2c3e50" font-weight="bold">主な活用シーン</text>
+    <text x="1030" y="525" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• 議事録・要約・翻訳</text>
+    <text x="1030" y="570" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• レポート整形</text>
+    <text x="1030" y="615" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• マニュアル・手順書作成</text>
+    
+    <!-- 相性 -->
+    <rect x="100" y="740" width="1720" height="100" fill="#27ae60" rx="10"/>
+    <text x="130" y="785" font-family="Arial, sans-serif" font-size="32" fill="white" font-weight="bold">相性の良い使い方</text>
+    <text x="500" y="820" font-family="Arial, sans-serif" font-size="38" fill="white" font-weight="bold">シングルターン</text>
+    
+    <!-- ページ番号 -->
+    <text x="1820" y="1050" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d" text-anchor="end">1 / 4</text>
+  </g>
+  
+  <!-- スライド2: 発散フェーズ -->
+  <g id="slide2" transform="translate(1920, 0)">
+    <!-- 背景 -->
+    <rect width="1920" height="1080" fill="#f8f9fa"/>
+    
+    <!-- ヘッダー -->
+    <rect width="1920" height="120" fill="#8e44ad"/>
+    <text x="960" y="75" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" font-weight="bold">発散フェーズ（Divergent Phase）</text>
+    
+    <!-- メインタイトル -->
+    <text x="100" y="220" font-family="Arial, sans-serif" font-size="42" fill="#8e44ad" font-weight="bold">発散フェーズとは？</text>
+    
+    <!-- 定義セクション -->
+    <rect x="100" y="260" width="1720" height="140" fill="#e74c3c" rx="10"/>
+    <text x="130" y="305" font-family="Arial, sans-serif" font-size="32" fill="white" font-weight="bold">定義</text>
+    <text x="130" y="355" font-family="Arial, sans-serif" font-size="36" fill="white">AIの思考を「広げ」、</text>
+    <text x="130" y="395" font-family="Arial, sans-serif" font-size="36" fill="white">新しいアイデアや視点を引き出すフェーズ</text>
+    
+    <!-- 特徴セクション -->
+    <rect x="100" y="430" width="840" height="280" fill="#ecf0f1" rx="10"/>
+    <text x="130" y="475" font-family="Arial, sans-serif" font-size="32" fill="#8e44ad" font-weight="bold">特徴</text>
+    <text x="150" y="525" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• 指示は あえて曖昧</text>
+    <text x="150" y="570" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• 制約を外す</text>
+    <text x="150" y="615" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• 意外性・多様性を重視</text>
+    
+    <!-- 活用シーンセクション -->
+    <rect x="980" y="430" width="840" height="280" fill="#ecf0f1" rx="10"/>
+    <text x="1010" y="475" font-family="Arial, sans-serif" font-size="32" fill="#8e44ad" font-weight="bold">主な活用シーン</text>
+    <text x="1030" y="525" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• 企画アイデア出し</text>
+    <text x="1030" y="570" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• ネーミング・キャッチコピー</text>
+    <text x="1030" y="615" font-family="Arial, sans-serif" font-size="26" fill="#34495e">• コンセプト設計</text>
+    
+    <!-- 相性 -->
+    <rect x="100" y="740" width="1720" height="100" fill="#f39c12" rx="10"/>
+    <text x="130" y="785" font-family="Arial, sans-serif" font-size="32" fill="white" font-weight="bold">相性の良い使い方</text>
+    <text x="500" y="820" font-family="Arial, sans-serif" font-size="38" fill="white" font-weight="bold">マルチターン</text>
+    
+    <!-- ページ番号 -->
+    <text x="1820" y="1050" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d" text-anchor="end">2 / 4</text>
+  </g>
+  
+  <!-- スライド3: マルチターンとシングルターン -->
+  <g id="slide3" transform="translate(3840, 0)">
+    <!-- 背景 -->
+    <rect width="1920" height="1080" fill="#f8f9fa"/>
+    
+    <!-- ヘッダー -->
+    <rect width="1920" height="120" fill="#16a085"/>
+    <text x="960" y="75" font-family="Arial, sans-serif" font-size="48" fill="white" text-anchor="middle" font-weight="bold">マルチターンとシングルターン</text>
+    
+    <!-- 左側: マルチターン -->
+    <rect x="60" y="160" width="880" height="850" fill="#ecf0f1" rx="10"/>
+    <text x="90" y="215" font-family="Arial, sans-serif" font-size="36" fill="#f39c12" font-weight="bold">マルチターン（Multi-turn）とは</text>
+    <text x="90" y="265" font-family="Arial, sans-serif" font-size="28" fill="#34495e">AIと 会話を往復しながら 進める使い方</text>
+    
+    <text x="90" y="330" font-family="Arial, sans-serif" font-size="28" fill="#16a085" font-weight="bold">特徴</text>
+    <text x="110" y="375" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 文脈を積み重ねて発想を拡張</text>
+    <text x="110" y="415" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 会話が長くなると ブレや迷走</text>
+    <text x="130" y="450" font-family="Arial, sans-serif" font-size="24" fill="#34495e">が起きやすい</text>
+    
+    <text x="90" y="510" font-family="Arial, sans-serif" font-size="28" fill="#16a085" font-weight="bold">向いている場面</text>
+    <text x="110" y="555" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 発散フェーズ</text>
+    <text x="110" y="590" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• アイデアの壁打ち</text>
+    <text x="110" y="625" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 視点を広げたいとき</text>
+    
+    <rect x="90" y="670" width="820" height="300" fill="#fff3cd" rx="8"/>
+    <text x="120" y="715" font-family="Arial, sans-serif" font-size="26" fill="#856404" font-weight="bold">⚠ 注意点</text>
+    <text x="120" y="765" font-family="Arial, sans-serif" font-size="24" fill="#856404">品質が落ちたら</text>
+    <text x="120" y="805" font-family="Arial, sans-serif" font-size="24" fill="#856404">新しいチャットに切り替える</text>
+    
+    <!-- 右側: シングルターン -->
+    <rect x="980" y="160" width="880" height="850" fill="#ecf0f1" rx="10"/>
+    <text x="1010" y="215" font-family="Arial, sans-serif" font-size="36" fill="#27ae60" font-weight="bold">シングルターン（Single-turn）とは</text>
+    <text x="1010" y="265" font-family="Arial, sans-serif" font-size="28" fill="#34495e">1回の指示で完結させる使い方</text>
+    
+    <text x="1010" y="330" font-family="Arial, sans-serif" font-size="28" fill="#16a085" font-weight="bold">特徴</text>
+    <text x="1030" y="375" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 出力が安定しやすい</text>
+    <text x="1030" y="415" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 指示の「構造」が重要</text>
+    <text x="1030" y="455" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• AIの迷走を防げる</text>
+    
+    <text x="1010" y="520" font-family="Arial, sans-serif" font-size="28" fill="#16a085" font-weight="bold">向いている場面</text>
+    <text x="1030" y="565" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 収束フェーズ</text>
+    <text x="1030" y="605" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 正確性・一貫性が必要な業務</text>
+    <text x="1030" y="645" font-family="Arial, sans-serif" font-size="24" fill="#34495e">• 定型作業・自動化</text>
+    
+    <!-- ページ番号 -->
+    <text x="1820" y="1050" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d" text-anchor="end">3 / 4</text>
+  </g>
+  
+  <!-- スライド4: 構造化プロンプト -->
+  <g id="slide4" transform="translate(5760, 0)">
+    <!-- 背景 -->
+    <rect width="1920" height="1080" fill="#f8f9fa"/>
+    
+    <!-- ヘッダー -->
+    <rect width="1920" height="120" fill="#c0392b"/>
+    <text x="960" y="75" font-family="Arial, sans-serif" font-size="44" fill="white" text-anchor="middle" font-weight="bold">構造化プロンプト（Markdown / YAML / XML）</text>
+    
+    <!-- サブタイトル -->
+    <text x="100" y="200" font-family="Arial, sans-serif" font-size="36" fill="#c0392b" font-weight="bold">AIを迷わせない ― 構造化プロンプトの実例</text>
+    
+    <!-- ポイント -->
+    <rect x="100" y="220" width="1720" height="70" fill="#e74c3c" rx="8"/>
+    <text x="960" y="265" font-family="Arial, sans-serif" font-size="26" fill="white" text-anchor="middle">シングルターン × 収束フェーズを安定させる最大のコツは「指示を構造として渡すこと」</text>
+    
+    <!-- Markdown例 -->
+    <rect x="60" y="320" width="580" height="680" fill="#2c3e50" rx="10"/>
+    <text x="90" y="360" font-family="Arial, sans-serif" font-size="28" fill="#3498db" font-weight="bold">Markdown例</text>
+    <text x="90" y="395" font-family="Arial, sans-serif" font-size="20" fill="#95a5a6">（人が書きやすい）</text>
+    
+    <text x="90" y="440" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1"># 目的</text>
+    <text x="90" y="470" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1">議事録を要約する</text>
+    <text x="90" y="510" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1"># 入力</text>
+    <text x="90" y="540" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1">- 会議の文字起こしテキスト</text>
+    <text x="90" y="580" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1"># 出力形式</text>
+    <text x="90" y="610" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1">- 箇条書き5行</text>
+    <text x="90" y="640" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1">- 決定事項を太字にする</text>
+    <text x="90" y="680" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1"># 条件</text>
+    <text x="90" y="710" font-family="Courier New, monospace" font-size="20" fill="#ecf0f1">- 300文字以内</text>
+    
+    <text x="90" y="770" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">👉 人間にとって分かりやすく、</text>
+    <text x="105" y="795" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">AIにも役割が伝わる</text>
+    
+    <!-- YAML例 -->
+    <rect x="670" y="320" width="580" height="680" fill="#34495e" rx="10"/>
+    <text x="700" y="360" font-family="Arial, sans-serif" font-size="28" fill="#f39c12" font-weight="bold">YAML例</text>
+    <text x="700" y="395" font-family="Arial, sans-serif" font-size="20" fill="#95a5a6">（ルールを厳密に伝える）</text>
+    
+    <text x="700" y="440" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">task: meeting_summary</text>
+    <text x="700" y="470" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">input: transcript_text</text>
+    <text x="700" y="500" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">output:</text>
+    <text x="720" y="530" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">format: bullet_list</text>
+    <text x="720" y="560" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">items: 5</text>
+    <text x="720" y="590" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">highlight: decisions</text>
+    <text x="700" y="620" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">constraints:</text>
+    <text x="720" y="650" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">max_length: 300</text>
+    <text x="720" y="680" font-family="Courier New, monospace" font-size="19" fill="#ecf0f1">language: ja</text>
+    
+    <text x="700" y="740" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">👉 自動化・API連携向き</text>
+    <text x="700" y="775" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">👉 AIが「仕様書」として</text>
+    <text x="715" y="800" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">解釈できる</text>
+    
+    <!-- XML例 -->
+    <rect x="1280" y="320" width="580" height="680" fill="#2c3e50" rx="10"/>
+    <text x="1310" y="360" font-family="Arial, sans-serif" font-size="28" fill="#e67e22" font-weight="bold">XML例</text>
+    <text x="1310" y="395" font-family="Arial, sans-serif" font-size="20" fill="#95a5a6">（システム連携向き）</text>
+    
+    <text x="1310" y="440" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;task&gt;</text>
+    <text x="1330" y="468" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;type&gt;meeting_summary&lt;/type&gt;</text>
+    <text x="1330" y="496" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;input&gt;transcript_text&lt;/input&gt;</text>
+    <text x="1330" y="524" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;output&gt;</text>
+    <text x="1350" y="552" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;format&gt;bullet&lt;/format&gt;</text>
+    <text x="1350" y="580" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;items&gt;5&lt;/items&gt;</text>
+    <text x="1330" y="608" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;/output&gt;</text>
+    <text x="1330" y="636" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;constraints&gt;</text>
+    <text x="1350" y="664" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;maxLength&gt;300&lt;/maxLength&gt;</text>
+    <text x="1350" y="692" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;language&gt;ja&lt;/language&gt;</text>
+    <text x="1330" y="720" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;/constraints&gt;</text>
+    <text x="1310" y="748" font-family="Courier New, monospace" font-size="18" fill="#ecf0f1">&lt;/task&gt;</text>
+    
+    <text x="1310" y="805" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">👉 業務システム・アプリ連携</text>
+    <text x="1325" y="830" font-family="Arial, sans-serif" font-size="18" fill="#2ecc71">で強い</text>
+    
+    <!-- ページ番号 -->
+    <text x="1820" y="1050" font-family="Arial, sans-serif" font-size="24" fill="#7f8c8d" text-anchor="end">4 / 4</text>
+  </g>
+</svg>
